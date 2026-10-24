@@ -1,0 +1,4095 @@
+{
+  "snapshot": "2026-10-24",
+  "method": "One implementation-bearing branch/commit per non-fork public repository. UTF-8 programming/markup source bytes; notebook code cells only. Extension classification approximates Linguist; not GitHub Linguist API or proficiency. Svelte and Blade files count as their host languages. C .h headers classify as C. No inference from employer work.",
+  "exclusions": [
+    "fork repositories",
+    "node_modules",
+    "Unity Library/Temp/Logs/Packages and TextMesh Pro/Standard Assets",
+    "build/dist/bin/obj/vendor/editor caches",
+    "minified/bundled/generated suffixes",
+    "checkpoint notebooks",
+    "binary assets/model weights/datasets",
+    "config/docs and unrecognized extensions",
+    "notebook outputs/Markdown"
+  ],
+  "repositories": [
+    {
+      "repository": "AmazonProduct",
+      "branch": "master",
+      "commit": "00de8656fd9952e515c9ac8de04e3f3f44829074",
+      "selectionReason": "default has no eligible source; selected implementation-bearing conventional branch",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "00de8656fd9952e515c9ac8de04e3f3f44829074",
+          "eligibleFiles": 60,
+          "eligibleBytes": 99005
+        },
+        {
+          "branch": "main",
+          "commit": "acae8c0c51290b880c5bf5832c23b4ab3c0013e2",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "PHP": 82067,
+        "JavaScript": 1431,
+        "SCSS": 3,
+        "Blade": 15504
+      },
+      "files": [
+        {
+          "path": "app/Console/Kernel.php",
+          "language": "PHP",
+          "bytes": 827,
+          "sourceSha256": "ea31d7a9edd57ea2ef709a8e758742877d6b2691c61135b5266a751b7be92223",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Exceptions/Handler.php",
+          "language": "PHP",
+          "bytes": 1141,
+          "sourceSha256": "917f10962ca460a39f0e3a3c2f5d3b64fb76713d779dc471c94dee36f5b6a621",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Controllers/Controller.php",
+          "language": "PHP",
+          "bytes": 361,
+          "sourceSha256": "03b82a5051ca8dd75ed2833cf29cd1747358972471d24c36f74648aaf05b5e8f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Controllers/ProductController.php",
+          "language": "PHP",
+          "bytes": 4286,
+          "sourceSha256": "3a83662add8b03d9acff7f351bf440ff7f234c57436c84c361b639b3e390d49f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Kernel.php",
+          "language": "PHP",
+          "bytes": 2415,
+          "sourceSha256": "7cfec7a187bc8d247f9b30ec5604a6351a9bc9d18f25d5e4699ab46d504c7f73",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/Authenticate.php",
+          "language": "PHP",
+          "bytes": 469,
+          "sourceSha256": "2c0be9f631263bbae2d83531cbb0f2068aaa0c53a000d5cc2605bf291d7dafc1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/CheckForMaintenanceMode.php",
+          "language": "PHP",
+          "bytes": 335,
+          "sourceSha256": "07d441279f4e835ac402dc04f76025c43b676a27ee9e6d0690f69c9a7bb31aab",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/EncryptCookies.php",
+          "language": "PHP",
+          "bytes": 294,
+          "sourceSha256": "c56acc91a253cc0a078e41e9a093585001c88bac441613582cacaceb063f7731",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/RedirectIfAuthenticated.php",
+          "language": "PHP",
+          "bytes": 582,
+          "sourceSha256": "2e239be4b4e72190b7cd619b59e655a49813cedafcd72c46b95e049060f2e451",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/TrimStrings.php",
+          "language": "PHP",
+          "bytes": 340,
+          "sourceSha256": "03b958f4ee40f3bbde9217c15d07efc6b287ef722d34f4cbab54ffa0b42bc9d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/TrustProxies.php",
+          "language": "PHP",
+          "bytes": 436,
+          "sourceSha256": "6837f6fd72e21e7ff4e42248ec0fa95fdee4ffab7b01f7bf2eae22e040887143",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/VerifyCsrfToken.php",
+          "language": "PHP",
+          "bytes": 307,
+          "sourceSha256": "5582b6ed9fce97124959649b95e178c5281b7cafc84c47a629c5bd02c08656a0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Products.php",
+          "language": "PHP",
+          "bytes": 293,
+          "sourceSha256": "535d3b0407413afc1ac7184d5ec5069153819449dee3931f00871426569a6644",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/AppServiceProvider.php",
+          "language": "PHP",
+          "bytes": 473,
+          "sourceSha256": "21d0c5b3b09b1b1f61fb7f7431568e29d72551ef165fb18196855e84c57e23b4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/AuthServiceProvider.php",
+          "language": "PHP",
+          "bytes": 578,
+          "sourceSha256": "77d79e4ccc2fce319e178b57e6d16b152d55e807f95f4eb84e239b5e7dc28c71",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/BroadcastServiceProvider.php",
+          "language": "PHP",
+          "bytes": 380,
+          "sourceSha256": "6dade8c1ce5b4f91204e5c56f821f658f3e24d3d5bbae1a625c6914995ad81d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/EventServiceProvider.php",
+          "language": "PHP",
+          "bytes": 710,
+          "sourceSha256": "de77893fd51e79591a1a04ed728a5f024e171733dcde3e1cf0fe5384c5ed51d6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/RouteServiceProvider.php",
+          "language": "PHP",
+          "bytes": 1663,
+          "sourceSha256": "2490595dac338100dd0b4d4d3766ece0fca8e626f984f40eb15ace5bb68f81ab",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/User.php",
+          "language": "PHP",
+          "bytes": 734,
+          "sourceSha256": "605f15fa5d7d7309a0b9bfb7cef3471818f525f7c2adf093004a154dd400dbdf",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "bootstrap/app.php",
+          "language": "PHP",
+          "bytes": 1620,
+          "sourceSha256": "e346d041676171a900406bba87f0658b6d3aebef79bed7e7081213e7ac3c7951",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/app.php",
+          "language": "PHP",
+          "bytes": 9232,
+          "sourceSha256": "f6f0e2551b49b5c70d589a4119e2881e3a95ab7fac6d0ed5bdf16276de14a8aa",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/auth.php",
+          "language": "PHP",
+          "bytes": 3796,
+          "sourceSha256": "57ffc35309daf419fc79ccea4fed2bb5b576f1536c71c51c5e5bc7d1b807f5ee",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/broadcasting.php",
+          "language": "PHP",
+          "bytes": 1601,
+          "sourceSha256": "2fff2b8d5bc41523e6dd90e3539d23160fb23f899930230b1e9b438dabdf98a8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/cache.php",
+          "language": "PHP",
+          "bytes": 3066,
+          "sourceSha256": "68f7753cc33d9e3bd6be12f78923e3d0553dfcce0ceb6026f205b42ce900721c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/cors.php",
+          "language": "PHP",
+          "bytes": 830,
+          "sourceSha256": "992369ab03fe479bfd15299fee44260bb48f5f44c722aa113aacb490e7456c02",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/database.php",
+          "language": "PHP",
+          "bytes": 5054,
+          "sourceSha256": "df1e85513075c64bb3e49336626047f7abdbcfeba673e61a773cb30cf0a7dc41",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/filesystems.php",
+          "language": "PHP",
+          "bytes": 2641,
+          "sourceSha256": "b94d6d07f8edddeeac9c94ebe55188cd223053ebda67c5a7f22c4a48d8225feb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/hashing.php",
+          "language": "PHP",
+          "bytes": 1571,
+          "sourceSha256": "2d30577cc7b8d4cd24a4ac416f2d0a6e5fd0296c05ab04dc581a7d3b6c6e890a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/logging.php",
+          "language": "PHP",
+          "bytes": 2896,
+          "sourceSha256": "e8154af77c0853454cb511e05d2fe97461b812e78e3c7584b7631335ddd8ce4a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/mail.php",
+          "language": "PHP",
+          "bytes": 3160,
+          "sourceSha256": "1306cb2cece7e5ff76a4fc97a8ca62199496951261b6335085f90affb46e155e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/queue.php",
+          "language": "PHP",
+          "bytes": 2717,
+          "sourceSha256": "6f9151fbf7f8c8a4664d834b8fe376e935ce8153c94348eec30781a295206ff1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/services.php",
+          "language": "PHP",
+          "bytes": 950,
+          "sourceSha256": "cd131fd8498f08fdce5b9f57675736a4b47708335bb71c3a3d990a815f68fa6e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/session.php",
+          "language": "PHP",
+          "bytes": 6980,
+          "sourceSha256": "8ba046f96c833b00cee701172bd6ec509867675792c7c1c30b2c8737183f714d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/view.php",
+          "language": "PHP",
+          "bytes": 1565,
+          "sourceSha256": "3448a86507390b27a8ffca48c9eab04a7a6eeaf23e8d898553de738d0d32949c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/factories/UserFactory.php",
+          "language": "PHP",
+          "bytes": 876,
+          "sourceSha256": "3ec398cc32b6e8b482f817c625344f4b4724c0924c6c83a9ff986208d22b0c54",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/migrations/2021_03_26_205824_create_products_table.php",
+          "language": "PHP",
+          "bytes": 994,
+          "sourceSha256": "08b2ef441cc921180b9acd48d61ec9a57feb7acaaaeec7a46442ae050d59cb81",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/seeds/DatabaseSeeder.php",
+          "language": "PHP",
+          "bytes": 250,
+          "sourceSha256": "ebbd8fd341628175b572df561c0208becf85d74525cd12af7fdf65aa69e2aa10",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "public/index.php",
+          "language": "PHP",
+          "bytes": 1823,
+          "sourceSha256": "4c0dacb2f4715c7a0a09cef13b5614b41468b1c2cd9939d1acf4cd044aca39a5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/js/app.js",
+          "language": "JavaScript",
+          "bytes": 24,
+          "sourceSha256": "ef098c34ce5c06128d48c4320a356a42d8b1dcb412fef9ce243e875b7d11ae74",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/js/bootstrap.js",
+          "language": "JavaScript",
+          "bytes": 869,
+          "sourceSha256": "db76251694bca51ab52cf1c9fda9f43d569b60f042573f4afc18c0186e92a744",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/auth.php",
+          "language": "PHP",
+          "bytes": 617,
+          "sourceSha256": "7f99dce936aebdb18f5d8f03390a21a53708fb2893f2e81193b203bdca94a637",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/pagination.php",
+          "language": "PHP",
+          "bytes": 534,
+          "sourceSha256": "5c9bed6d2c965666d0c8b9f17f93f87cbfc7a240ead19b3b061764e8238e219f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/passwords.php",
+          "language": "PHP",
+          "bytes": 744,
+          "sourceSha256": "1033d4d34a49e17610dee7a13e14d13525472a96396a96c07d3870f337e10498",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/validation.php",
+          "language": "PHP",
+          "bytes": 7642,
+          "sourceSha256": "90956905af02a1027a7bd37b99f414c2c3ff54a85e449c01071fa39a5103aaea",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/sass/app.scss",
+          "language": "SCSS",
+          "bytes": 3,
+          "sourceSha256": "101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/add_product.blade.php",
+          "language": "Blade",
+          "bytes": 3467,
+          "sourceSha256": "f6128a35d7542d9829eae82aa726cb7db2367c6fb797586925e090b19cb510b1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/home.blade.php",
+          "language": "Blade",
+          "bytes": 3011,
+          "sourceSha256": "1eaf3008e51df7b9bda828f05bf2c2b01a5f428ba0135434183f2d3e945a67e2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/navbar.blade.php",
+          "language": "Blade",
+          "bytes": 5262,
+          "sourceSha256": "6b0a8d621e0194456cbb3441409761b666877d54819831f297fb21fa7c313660",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/single_product.blade.php",
+          "language": "Blade",
+          "bytes": 2743,
+          "sourceSha256": "74db99308a1154dbf2ba578573ed7f712032a0b95ab593ab40e3227a4e61ffd5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/toastr.blade.php",
+          "language": "Blade",
+          "bytes": 1021,
+          "sourceSha256": "b04514beab7a7bef379b9d82fbf050108545022489ae3f601e7dad202adf29e0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/api.php",
+          "language": "PHP",
+          "bytes": 566,
+          "sourceSha256": "84b312d39b3b07994238867ddc15fdd1e7e108832f21b1a24ec6a1795eca3420",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/channels.php",
+          "language": "PHP",
+          "bytes": 551,
+          "sourceSha256": "d19eed04c211cc2344b51b1eb7e5915f4c29db86bd4efd4846e2ad145676fc9a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/console.php",
+          "language": "PHP",
+          "bytes": 593,
+          "sourceSha256": "1d1151416d3225afffaafb324e193309f5149ff4e894f14784c77a69701f760d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/web.php",
+          "language": "PHP",
+          "bytes": 873,
+          "sourceSha256": "b619ba3937d72463b65bfbaba92763ed1db757b3a349e53632025724a898467f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "server.php",
+          "language": "PHP",
+          "bytes": 563,
+          "sourceSha256": "aa747cd76a2fd775289a51528d4356f816d3bf594494da626816b5cb80eaf365",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/CreatesApplication.php",
+          "language": "PHP",
+          "bytes": 380,
+          "sourceSha256": "63e92d10f62118215f6a4ee20036e86a26d6867175365429e65de33d0c60ba21",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/Feature/ExampleTest.php",
+          "language": "PHP",
+          "bytes": 340,
+          "sourceSha256": "7cbba5cfd7fa4687beab6231739c949f1f8a6f3fa86edda2e51ea85d6d672f23",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/TestCase.php",
+          "language": "PHP",
+          "bytes": 163,
+          "sourceSha256": "fde47044bae82a492f646384cbc1e636b93c6bf0cea7047c3631e6a26736154d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/Unit/ExampleTest.php",
+          "language": "PHP",
+          "bytes": 255,
+          "sourceSha256": "d55f9763884ade5fb898042ef339c100fc74f79b50d5bb137d446ffb923c1a73",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "webpack.mix.js",
+          "language": "JavaScript",
+          "bytes": 538,
+          "sourceSha256": "5694f1dfca6a26444673312c6b142929e7dd2bba54dbdd0acc708833a60a076e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 37,
+        "dependency/generated/vendor/editor/checkpoint directory": 1
+      }
+    },
+    {
+      "repository": "AVOID-THE-PIEDRA",
+      "branch": "main",
+      "commit": "25c6806a5a84b4ae8c4d377339b4f2399a71c753",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "25c6806a5a84b4ae8c4d377339b4f2399a71c753",
+          "eligibleFiles": 8,
+          "eligibleBytes": 20689
+        }
+      ],
+      "languages": {
+        "C#": 20665
+      },
+      "files": [
+        {
+          "path": "Assets/fadingIn.cs",
+          "language": "C#",
+          "bytes": 496,
+          "sourceSha256": "e34ea1bd23a3f91e3d23f905417c4fcc5b99094df986cd4dc674c22389154f72",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/MainMenuManager.cs",
+          "language": "C#",
+          "bytes": 1765,
+          "sourceSha256": "7abc4053014732e9cc7920ae9e9ea5c78227fb00b3b5fbc688323fdc03e10fdb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/ButtonDisable.cs",
+          "language": "C#",
+          "bytes": 687,
+          "sourceSha256": "3e609c9dd0f2f0a0041ca20e6f42138e72e1190ab8f0d2aa6925c0215d142efd",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/ControlManager.cs",
+          "language": "C#",
+          "bytes": 3507,
+          "sourceSha256": "140d6c7735aa9b3a8778dbbbdcc15c502b94949faf3538f5577c53ac27dfc221",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/FollowPlayer.cs",
+          "language": "C#",
+          "bytes": 301,
+          "sourceSha256": "2628f9d413b5e7bb4fbf3f0c6705ef37f6cb80b3b262ebdd784276cd94cead5f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/InstantiateObjects.cs",
+          "language": "C#",
+          "bytes": 10557,
+          "sourceSha256": "62b4413a75313dce1f3eea68b683fc930bb2d655508c258a2b58e8d4b72f4a70",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/playerMovement.cs",
+          "language": "C#",
+          "bytes": 2804,
+          "sourceSha256": "e83b90ab47348c7eb3762d32e98aa145409797811c7fe4194ba879b00ee02f7c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/script/ScoreCount.cs",
+          "language": "C#",
+          "bytes": 548,
+          "sourceSha256": "b665f8eb3c59f47b843f6830f2325e6353f5c494ead2c68b8a21bd8f5a24ddf5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "dependency/generated/vendor/editor/checkpoint directory": 13282,
+        "non-source extension (data/binary/config/docs excluded)": 297
+      }
+    },
+    {
+      "repository": "BLOCK-THE-BALLS",
+      "branch": "master",
+      "commit": "ffdddd831b821ce1f8e2c6dfac125cb1aac8e6ea",
+      "selectionReason": "default has no eligible source; selected implementation-bearing conventional branch",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "ffdddd831b821ce1f8e2c6dfac125cb1aac8e6ea",
+          "eligibleFiles": 10,
+          "eligibleBytes": 10963
+        },
+        {
+          "branch": "main",
+          "commit": "baa9ce47ed245d83229ba20060f85cd08266a686",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "C#": 10939
+      },
+      "files": [
+        {
+          "path": "Assets/Script/Ball.cs",
+          "language": "C#",
+          "bytes": 529,
+          "sourceSha256": "980b67c959aff9a30cc8d0c9e6cb9c2d756956480caef54d3d3df0c0bdca163e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/BallMovement.cs",
+          "language": "C#",
+          "bytes": 309,
+          "sourceSha256": "60fe41490ee4221ed9b547c47eb9076a2e723d350cbed4e66ed7409ddef5e950",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/ClassicGameManager.cs",
+          "language": "C#",
+          "bytes": 1353,
+          "sourceSha256": "146b845dc65e4ccf1e712198ba4fbba4ff6cc11f234ff348a82aedadf4359193",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/Destroyer.cs",
+          "language": "C#",
+          "bytes": 155,
+          "sourceSha256": "26dc037ec754cc449fd68cfdb520848eaf51b72eb71ad906278d3f117b90350b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/LifeControl.cs",
+          "language": "C#",
+          "bytes": 2229,
+          "sourceSha256": "516ed7786d4bff8a3669c60ab75dcd453b2c9fcd5286cf0aa876e3f6191ad7e8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/redball.cs",
+          "language": "C#",
+          "bytes": 539,
+          "sourceSha256": "456d021d378f97c7344895d42c45f597481b968e0f6ab5cb9daf774cd421a44e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/Scaler.cs",
+          "language": "C#",
+          "bytes": 777,
+          "sourceSha256": "93d6534236574060a26cdd67c8d886f1244873efc01e379deeb3f786293a0a6a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/ScoreCounter.cs",
+          "language": "C#",
+          "bytes": 758,
+          "sourceSha256": "a9805d5c8a3312800e2d564be721bc09e1b98560e57e57f676cb7a5d7816ad26",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/StickMovement.cs",
+          "language": "C#",
+          "bytes": 1328,
+          "sourceSha256": "954f6e03e28b737ef7c6cb274413dd7c5eaf6c4c2b5b7029f9ce076a49e448bd",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Assets/Script/TouchDetect.cs",
+          "language": "C#",
+          "bytes": 2962,
+          "sourceSha256": "27d22bc959c532e6a5fb16b2cf44e6d9cfb8eff43f93937a35f152114da216b2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 144,
+        "dependency/generated/vendor/editor/checkpoint directory": 7591
+      }
+    },
+    {
+      "repository": "Consumable-Tracker",
+      "branch": "master",
+      "commit": "a7db2bc87d53409eb97fdd371146362dff7f687d",
+      "selectionReason": "default has no eligible source; selected implementation-bearing conventional branch",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "a7db2bc87d53409eb97fdd371146362dff7f687d",
+          "eligibleFiles": 7,
+          "eligibleBytes": 33021
+        },
+        {
+          "branch": "main",
+          "commit": "3126a362a248374c8fec9cd20f7e2a76839fc281",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "Java": 33021
+      },
+      "files": [
+        {
+          "path": "src/consumabletracker/Book.java",
+          "language": "Java",
+          "bytes": 1709,
+          "sourceSha256": "9fe713803067399ec0b5502bc797cad27161669e7cf27e43cc819f81c41704ce",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/Commands.java",
+          "language": "Java",
+          "bytes": 14542,
+          "sourceSha256": "cae8d5c7418c0faa5ec5941dab010d688274f31352de4f4c1eacdce1a486e166",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/Consumable.java",
+          "language": "Java",
+          "bytes": 996,
+          "sourceSha256": "856eb507c4e1146f6cb4cf364df86dc6309ebc88348400853892d6ae23176416",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/Main.java",
+          "language": "Java",
+          "bytes": 8168,
+          "sourceSha256": "a68d0d903bc79c2a768a0a2c20d2933a95bda288d5e6fa9c23910c13995a646d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/Movie.java",
+          "language": "Java",
+          "bytes": 1709,
+          "sourceSha256": "fbf2f3d94bed00466471fbb3edf43d1e4c67462274c73d356cc4c6e75b8eb7c0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/OverallInfo.java",
+          "language": "Java",
+          "bytes": 4180,
+          "sourceSha256": "c741ca99e15f582af631ed3767c49f0e8ab7aa63c1d2326c3ad3990638f17bd9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/consumabletracker/Series.java",
+          "language": "Java",
+          "bytes": 1717,
+          "sourceSha256": "cf5214cfbb4b9a41dac00bdc312cfd6e6692f4444478487075697801f2a9bb9a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 16,
+        "dependency/generated/vendor/editor/checkpoint directory": 9
+      }
+    },
+    {
+      "repository": "CSV_Editor",
+      "branch": "main",
+      "commit": "f5ddf98d761ce964f9603d11b1a3b68d8d2f0b9d",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "f5ddf98d761ce964f9603d11b1a3b68d8d2f0b9d",
+          "eligibleFiles": 2,
+          "eligibleBytes": 19773
+        }
+      ],
+      "languages": {
+        "Python": 8511
+      },
+      "files": [
+        {
+          "path": "CSV_Editor.ipynb",
+          "language": "Python",
+          "bytes": 4367,
+          "sourceSha256": "7497b55667962dd216b68851c191f9e3e5444dc0c78c419d57a768a6dc74b4ed",
+          "method": "UTF-8 code-cell source only; outputs and Markdown omitted"
+        },
+        {
+          "path": "CSV_Editor.py",
+          "language": "Python",
+          "bytes": 4144,
+          "sourceSha256": "ff34fabe1831e7184faf24dc74ebd28e629cb02fd8897a9ea4029a9fd9fe5b91",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "dependency/generated/vendor/editor/checkpoint directory": 1,
+        "non-source extension (data/binary/config/docs excluded)": 4
+      }
+    },
+    {
+      "repository": "devops_assignment",
+      "branch": "main",
+      "commit": "329dea5abef38a6c6f3295579ddbd0825c735b72",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "329dea5abef38a6c6f3295579ddbd0825c735b72",
+          "eligibleFiles": 1,
+          "eligibleBytes": 787
+        },
+        {
+          "branch": "dev",
+          "commit": "bbd93ee4547dedeaab69c79965a0565ac218a910",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "Groovy": 787
+      },
+      "files": [
+        {
+          "path": "Jenkinsfile",
+          "language": "Groovy",
+          "bytes": 787,
+          "sourceSha256": "011f8c75338d67e08af9d58f4d84acd3086d76d475805d1b94e8f284cf68f779",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 3
+      }
+    },
+    {
+      "repository": "DockerBlocks",
+      "branch": "develop",
+      "commit": "cb97d1309be989d2ea97797993e8e267018afbdd",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "develop",
+          "commit": "cb97d1309be989d2ea97797993e8e267018afbdd",
+          "eligibleFiles": 20,
+          "eligibleBytes": 204308
+        },
+        {
+          "branch": "main",
+          "commit": "a45ec466bf1f57996a1cb60e87d2e06a2007ed13",
+          "eligibleFiles": 20,
+          "eligibleBytes": 204308
+        }
+      ],
+      "languages": {
+        "HTML": 13738,
+        "TypeScript": 89607,
+        "CSS": 25993,
+        "JavaScript": 74970
+      },
+      "files": [
+        {
+          "path": "blockly_app/index.html",
+          "language": "HTML",
+          "bytes": 13738,
+          "sourceSha256": "df11df16e9c1c3294c517ef3a310c7f5685548d06506db79f3d9532e44f6a123",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/app-bootstrap.ts",
+          "language": "TypeScript",
+          "bytes": 28403,
+          "sourceSha256": "b13ed70655237b4006f8427d632e92ded56a5381459ef56949bc7a3db9ec0da5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/app-types.ts",
+          "language": "TypeScript",
+          "bytes": 149,
+          "sourceSha256": "dc4826cc73e491ae5a10b80425284114b64bd7a03af56700f25423c661c4d88b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/docker-block-definitions.ts",
+          "language": "TypeScript",
+          "bytes": 5579,
+          "sourceSha256": "dcbcad90c7f98b2bdb5818672b665ce78e975fa7348f3b6c3398287f1fb151ef",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/docker-compose-importer.ts",
+          "language": "TypeScript",
+          "bytes": 23318,
+          "sourceSha256": "33855f782205476dffeed022c7ac19c6481856969caf2360f56cd26648357519",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/docker-example.ts",
+          "language": "TypeScript",
+          "bytes": 3594,
+          "sourceSha256": "7c4c6185791a55892419dc801f292f01a86f770063566a801507f486d8d9c343",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/docker-validation.ts",
+          "language": "TypeScript",
+          "bytes": 9700,
+          "sourceSha256": "4b891c5ee8185b6a15b764bb58b248128c88b5ed9d0ccc4d5503e12f572da01d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/docker-yaml.ts",
+          "language": "TypeScript",
+          "bytes": 5847,
+          "sourceSha256": "4f2bb96f9f1820bb590d515cacc797ddaf237745102707ae1537c00a5b7a63d7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/generator.ts",
+          "language": "TypeScript",
+          "bytes": 1469,
+          "sourceSha256": "bbc6e6a5520185f7ef39bf5df493817fc6abeb2e3a3f6bb715492ed42920bb0b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/import-inspector.ts",
+          "language": "TypeScript",
+          "bytes": 4302,
+          "sourceSha256": "12aaaa076977ed6e036ada636da2d6f7ed73822aa5fbbebe5daca8bc181d0069",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/main.ts",
+          "language": "TypeScript",
+          "bytes": 370,
+          "sourceSha256": "220add64d6c49c1221a9e2d127eb6adbf36f49cfeb17ac8c9577541a658368b4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/styles/main.css",
+          "language": "CSS",
+          "bytes": 25993,
+          "sourceSha256": "43610d53b6159debbaf70a1207694921bd59115f87e6dcac3a07758044da8307",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "blockly_app/src/validation-ui.ts",
+          "language": "TypeScript",
+          "bytes": 6732,
+          "sourceSha256": "367516a33df70112c597567f737b33b3d7f7548d60cfff30d4375617d31c5695",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/block-connection-rules/run-block-connection-rules-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 6196,
+          "sourceSha256": "263bb1667448ba5ae5032eca3a06422b632f12b76b7642675ed68af67b246615",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/docker-importer/run-docker-importer-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 14245,
+          "sourceSha256": "f708d964e705e1e004719560712154da6b3387449351af740ae89da8d24bce88",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/docker-regression/run-docker-regression-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 9693,
+          "sourceSha256": "9d12a8ac8df25bafc0980c7a581fcdd50d419f27a1d497d5c2b7e65ca359279c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/docker-validation-ui/run-docker-validation-ui-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 7716,
+          "sourceSha256": "56d2166eb3f85523f229c85d0b8a9965f26f0e9100cd4302b7087df873504b1d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/docker-validation-ui/run-final-ui-polish-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 29361,
+          "sourceSha256": "3831e7e55d74df59d9f6e9025a59902eda01850d70e89c9286580176ae6d55b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/yaml-generation/run-yaml-generation-tests.mjs",
+          "language": "JavaScript",
+          "bytes": 7759,
+          "sourceSha256": "f8714ac400c5041d76c493495f84e615677e202f142a55b2f6054bee5610bc0c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "vite.config.ts",
+          "language": "TypeScript",
+          "bytes": 144,
+          "sourceSha256": "b8acb2065b35189762b5a1e55ba3336fb41576178a0c70dd816e2998887b768a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 19
+      }
+    },
+    {
+      "repository": "dsi-abderrahmanebouzemlal",
+      "branch": "main",
+      "commit": "31f1e7a217c5de1287c636f1334e8c0adce0fb10",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "31f1e7a217c5de1287c636f1334e8c0adce0fb10",
+          "eligibleFiles": 188,
+          "eligibleBytes": 386478
+        }
+      ],
+      "languages": {
+        "JavaScript": 179015,
+        "CSS": 9751,
+        "HTML": 38963,
+        "Svelte": 158494,
+        "TypeScript": 255
+      },
+      "files": [
+        {
+          "path": "Blog-svelteKit/eslint.config.js",
+          "language": "JavaScript",
+          "bytes": 761,
+          "sourceSha256": "fa8d6910c6c7642b5e092ad074f667e8a3829544d2e41f002dddf95587012ed9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/app.css",
+          "language": "CSS",
+          "bytes": 570,
+          "sourceSha256": "fd4bb5a285fe7d8452d735d0b901577b01b9a2d507ddfc04b2f9b89d659b2936",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/app.html",
+          "language": "HTML",
+          "bytes": 385,
+          "sourceSha256": "d1733055a62760f0514695a20d86d800bf43be0a32bcc2370d327b67bfbdb6a4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/components/Footer.svelte",
+          "language": "Svelte",
+          "bytes": 2202,
+          "sourceSha256": "9c4b7dcef8885e3da0cfa628c077576f7a84458f7b640507c35e7af208761cc4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/components/Header.svelte",
+          "language": "Svelte",
+          "bytes": 457,
+          "sourceSha256": "a759988746c0cc0457729b272e84f473089a822a2b4cb0ae93b756b8febca733",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/components/Pagination.svelte",
+          "language": "Svelte",
+          "bytes": 676,
+          "sourceSha256": "95e21b2f50682ad4397c6d61c8b69ef3407084e1615e7ea2bb39601de8607bdd",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/components/PostCard.svelte",
+          "language": "Svelte",
+          "bytes": 1427,
+          "sourceSha256": "bb94c94902a327e5f29d7acb84dabdfe9b7d4cb97d8e61d936ac822ae167b6e2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/components/TrendingPost.svelte",
+          "language": "Svelte",
+          "bytes": 3570,
+          "sourceSha256": "c392da74ad9abd5f1f2ae30f9aaccb4a0d8df50524fcf44fe5f3936d69b8523d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/data/data.svelte.js",
+          "language": "JavaScript",
+          "bytes": 12753,
+          "sourceSha256": "7f4bde5647b2565eb03545e173244aa3c011b1f05510334f40b23842a64d7b90",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/lib/index.js",
+          "language": "JavaScript",
+          "bytes": 39,
+          "sourceSha256": "a5890b15fb943a1bd23e09d2b14bf32eb14bee4615cf4605a78ae5c4210d9049",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 309,
+          "sourceSha256": "7a6fdbeb90357ea101f979b164a4182e2a2533f5edd068862ff8824d5387c9a3",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/+page.svelte",
+          "language": "Svelte",
+          "bytes": 31,
+          "sourceSha256": "bf61c105bc6e9b031423e9106a7fa2a3a9bc2c99e20231d0f5d8f254e6abaf7c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/blog/[slug]/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 23,
+          "sourceSha256": "768970e227412adcaa7602bd57699d18582700760dc0d8fc902d5c65a49fce30",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/blog/[slug]/+page.server.js",
+          "language": "JavaScript",
+          "bytes": 324,
+          "sourceSha256": "40026bd1a39561e2bbea91f371ad3f1a7a34800e015f12e0916bac4920f55357",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/blog/[slug]/+page.svelte",
+          "language": "Svelte",
+          "bytes": 9910,
+          "sourceSha256": "ee8cd333331da2f2f2c6127666ee78cbfd98c2e6835ab8fc0c4d76f359f62f75",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/blog/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 8,
+          "sourceSha256": "7486df25ea03d68e8346590439b8075a5704402807b730511766c4ae040d528b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/src/routes/blog/+page.svelte",
+          "language": "Svelte",
+          "bytes": 2211,
+          "sourceSha256": "2b160224033163491c04974e64d4770e60897d454f4681635521367b4c457f5c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 165,
+          "sourceSha256": "4f88a3fa7b60fca4863dbf9df4ac8a358745df4d1e73eae2fb4e7151f4c6ba14",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Blog-svelteKit/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 204,
+          "sourceSha256": "f82621997912b40fcb66ed06b21adce1d4df184b1e39219e36321b7f0c5cc892",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/blog-preview-card-main/assets/style.css",
+          "language": "CSS",
+          "bytes": 646,
+          "sourceSha256": "eddd9450707071030493084939a5ff6faf4cc5634e14b0b94926045f3d826335",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/blog-preview-card-main/index.html",
+          "language": "HTML",
+          "bytes": 2319,
+          "sourceSha256": "69348e0ad37effc7076cd795ad38990cf9f0e52eba7b53fbf9419da03cb05bac",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/blog-preview-card-main/postcss.config.js",
+          "language": "JavaScript",
+          "bytes": 82,
+          "sourceSha256": "d35999b6ee9ec01aedd67bdb42af66800d8f2a3104fd25636113d090fe50918b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/digitalbank-landing-page/index.html",
+          "language": "HTML",
+          "bytes": 12257,
+          "sourceSha256": "ed6d04e2838b5aba0e5487b43d302e1282b7735096ccdb5f194090f4a1dcfc8a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/digitalbank-landing-page/src/index.css",
+          "language": "CSS",
+          "bytes": 390,
+          "sourceSha256": "bda2447bad193a537363a1ed37937ce87a535636e9561b89775e1816117832b5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/digitalbank-landing-page/src/main.js",
+          "language": "JavaScript",
+          "bytes": 314,
+          "sourceSha256": "e2a47d2f688127c05e722f33324c1d420e4d2486f01c40bb047d562117abfcb5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/digitalbank-landing-page/tailwindcss.config.js",
+          "language": "JavaScript",
+          "bytes": 842,
+          "sourceSha256": "3205e4ce51b3ffbae00bf17e92f03531a8f271935228026520aa00ecd7752bee",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/digitalbank-landing-page/vite.config.ts",
+          "language": "TypeScript",
+          "bytes": 255,
+          "sourceSha256": "914bb2899afea53493f25a719fe098833fd8ee2a9308b8b1a85a382f4dfbb7ca",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/fylo-dark-theme-landing-page/index.html",
+          "language": "HTML",
+          "bytes": 14483,
+          "sourceSha256": "9a978cd64e939d92de72cfd260c5ce98c81df68401d897028bef8d2a8f1cc817",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/fylo-dark-theme-landing-page/src/main.js",
+          "language": "JavaScript",
+          "bytes": 1237,
+          "sourceSha256": "b77500eb41584d8964613595288973015621e6fbf5b6599806e926809ee8bbc1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/fylo-dark-theme-landing-page/src/style.css",
+          "language": "CSS",
+          "bytes": 2602,
+          "sourceSha256": "4e5eafd63069917333e493d19c1a0ed2ef241204d6a3157f2da7fed3df99cf0d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/fylo-dark-theme-landing-page/tailwindcss.config.js",
+          "language": "JavaScript",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/fylo-dark-theme-landing-page/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 325,
+          "sourceSha256": "054216f908c4fb03cce803c405d570801d69c64637d9b0410dbd203520c7beb6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/testimonials-grid-section/index.html",
+          "language": "HTML",
+          "bytes": 5840,
+          "sourceSha256": "50a948c96285a867840fedfef6d99cb95b2b88caf9651bc4f864ac54ee7d147b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/testimonials-grid-section/src/main.js",
+          "language": "JavaScript",
+          "bytes": 22,
+          "sourceSha256": "927af711ffc28e1b03e5183a90b6a8266e79950504a4d94cc3c58c3c4256422a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/testimonials-grid-section/src/style.css",
+          "language": "CSS",
+          "bytes": 2526,
+          "sourceSha256": "ce916c503a2c76c3e6a108afdd4515b4c0cee53745ee995d754fd311327a9733",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/testimonials-grid-section/tailwindcss.config.js",
+          "language": "JavaScript",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week1/testimonials-grid-section/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 338,
+          "sourceSha256": "ee431c1d552973b00d2c9179983bf2306a59d4c29a2c4ae2a21c47903bba7955",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/index.html",
+          "language": "HTML",
+          "bytes": 520,
+          "sourceSha256": "a5e7af695d49da42dea06db66bc926436662b6ee59e24ebb7eecd2c7f9584978",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/actions/actions.svelte.js",
+          "language": "JavaScript",
+          "bytes": 2900,
+          "sourceSha256": "89c25e66ed16d45a1e749ccfb6aad47915d048df3c53bafb7fba0cedcdf91dc7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/app.css",
+          "language": "CSS",
+          "bytes": 861,
+          "sourceSha256": "d671609dddcb604cca0245a12dab740cd222aa1cbeaa77bbe0875370ef9ad71f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/App.svelte",
+          "language": "Svelte",
+          "bytes": 276,
+          "sourceSha256": "844f97dc5295f5f1abfe1b586060462ce961ca74305ee28cf23a132a2eaf8444",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/counter.svelte",
+          "language": "Svelte",
+          "bytes": 4030,
+          "sourceSha256": "f94c09fe6a3ec063000f2b1c519b9e705d74c799107a3dc0546363cf28ae08ca",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/data/pomodoros.js",
+          "language": "JavaScript",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/newTask.svelte",
+          "language": "Svelte",
+          "bytes": 2671,
+          "sourceSha256": "b0287f18aff4b327d7dd857a9764ca2f22f710e8975d5e53a00ca752b79c3ca8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/stores.svelte.js",
+          "language": "JavaScript",
+          "bytes": 3243,
+          "sourceSha256": "e827215e641f9a2be0b567ec079debffb44767ea498f1eff0c4cd561d9607e06",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/taskForm.svelte",
+          "language": "Svelte",
+          "bytes": 3223,
+          "sourceSha256": "19ba35ff8d83aa1361b6534ddbc24a37e1c3e9577a4015d0851a77bd35e479eb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/lib/todoList.svelte",
+          "language": "Svelte",
+          "bytes": 9563,
+          "sourceSha256": "87872ad147a49a71ebd1d18e95ad077ff152c4c30a0b0f96b5bc3cd6a71517c8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/src/main.js",
+          "language": "JavaScript",
+          "bytes": 172,
+          "sourceSha256": "d5d48475db14abbfe896356df04c10f4884a1215804fa7e2ccf3249288e9d1b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 295,
+          "sourceSha256": "486ecd3b3429e4fe058f253617e26892cf887cf1f9e0d121ea5e4ea95bb760e0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week2/pomodoro_timer/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 277,
+          "sourceSha256": "e82f45e161cc349cbc73c790f853c58f4d0d38240a189b6e2773e4496c3246ce",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/index.html",
+          "language": "HTML",
+          "bytes": 466,
+          "sourceSha256": "d9e38d5e5fdc1023005515e502a3b90ab2148282c3fd693ea8367fced014626c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/app.css",
+          "language": "CSS",
+          "bytes": 955,
+          "sourceSha256": "7609e9aa47beda2dddfa6133c0b2bde17b8544349e5ea3d8afeb58d1bf64db2b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/App.svelte",
+          "language": "Svelte",
+          "bytes": 259,
+          "sourceSha256": "4a84ed2963343f0a692efff55ec47ef7ca24fc1fa2058de4619f3776d82b1ea6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/lib/components/Header.svelte",
+          "language": "Svelte",
+          "bytes": 934,
+          "sourceSha256": "5f553bf139c5766de7d933067401c4d8978e47acd3b2f3cace14e4c5ec937997",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/lib/components/ProjectCard.svelte",
+          "language": "Svelte",
+          "bytes": 3389,
+          "sourceSha256": "477e6e9180669eb28d7f9cfada9eed57363d3e754f3b88282c7f1cc5e0eb89dc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/lib/components/ProjectGrid.svelte",
+          "language": "Svelte",
+          "bytes": 994,
+          "sourceSha256": "eed74f9327755dd2270f6740926fce282576b55861697c4d43e6523dc42b4237",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/lib/Counter.svelte",
+          "language": "Svelte",
+          "bytes": 149,
+          "sourceSha256": "f2a08379e34b6849b8950f9af16eb670534155ed3bd88a0269092a666852bd3f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/lib/data/projects.js",
+          "language": "JavaScript",
+          "bytes": 3094,
+          "sourceSha256": "87790434f560fe3d94ffd56301850b51e498539e381122bdd509c9463dc50852",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/main.js",
+          "language": "JavaScript",
+          "bytes": 186,
+          "sourceSha256": "9663a3cb85247c9fa2235112fa7ee1aa107180d48d4bd35638e92043c0df8042",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/src/vite-env.d.ts",
+          "language": "TypeScript",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 295,
+          "sourceSha256": "486ecd3b3429e4fe058f253617e26892cf887cf1f9e0d121ea5e4ea95bb760e0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week3/dashboard/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 244,
+          "sourceSha256": "22b7ffea9e7b08fef545cd0695af121adcc087e0e89380c5da36804be30706af",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/eslint.config.js",
+          "language": "JavaScript",
+          "bytes": 380,
+          "sourceSha256": "df5b24765e42a80d5d2e93a3bc7ad4047aa6ace200aefbd845f4baa05a9fbd05",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/index.html",
+          "language": "HTML",
+          "bytes": 355,
+          "sourceSha256": "0fce5a2ab0edaac36ce770e5bdd3b0c8667a7e323b76d7bd50ec53ac5a3c2733",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/actions.svelte.js",
+          "language": "JavaScript",
+          "bytes": 365,
+          "sourceSha256": "d915ea439f7cb5639d8d96de9d73897991e7232fe195f945791c31cd1778dca1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/app.css",
+          "language": "CSS",
+          "bytes": 467,
+          "sourceSha256": "7600746022b97595d2903cde6b12e741d5dd429d83fd51a75446a8f8cc317d3f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/App.svelte",
+          "language": "Svelte",
+          "bytes": 8329,
+          "sourceSha256": "4252352469370dbd28c05f72f28818a3aaee668dc2f3321f7e4c35e99461a9d7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/data/polls.svelte.js",
+          "language": "JavaScript",
+          "bytes": 9440,
+          "sourceSha256": "69c4c34888870491755e1f2f8268ac9587b2ead41b59e6222abb1e647f4be0c4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/lib/FormPoll.svelte",
+          "language": "Svelte",
+          "bytes": 6022,
+          "sourceSha256": "12e587df78264b75ea3bebf6324b325a7fdfc945d008fc6fd2e6cb75e614a516",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/lib/ItemPoll.svelte",
+          "language": "Svelte",
+          "bytes": 6654,
+          "sourceSha256": "c423ba58310419ec6148c6b13405bd00fe791e16d8d0e6f1cc884418f6098161",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/lib/SummaryResults.svelte",
+          "language": "Svelte",
+          "bytes": 3270,
+          "sourceSha256": "915bc35a239e59fcee5e82986e95ddd1a2785781361a7b93efe4b6a7e3e65de7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/lib/ToggleButton.svelte",
+          "language": "Svelte",
+          "bytes": 1002,
+          "sourceSha256": "9b2d4eb17964e97a9c9bd3fd88ba646d4764eb3668916fc50833f26856c4cbbf",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/lib/transition.js",
+          "language": "JavaScript",
+          "bytes": 634,
+          "sourceSha256": "2aa671f2dd2315b26c622404bc3609d1fdb96aaa3027c5c9320de88510fae57c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/src/main.js",
+          "language": "JavaScript",
+          "bytes": 176,
+          "sourceSha256": "ad56ef0c4205e7beaaedcbb66e2a5e380110157fda092fbb494190bc411dfd48",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 296,
+          "sourceSha256": "a51d9d348b111597e909a97b664e778087a473219bd426d74a04a1f84fab8980",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week4/poll_app/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 259,
+          "sourceSha256": "5305be7d79679b31e41cb1aad0fd3d084df58ccbd26a21fd0a68b462183912c8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/index.js",
+          "language": "JavaScript",
+          "bytes": 5078,
+          "sourceSha256": "6331126fbfad9954d8198dbab52e38101446917b56a9d2bcc6e143856088544f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/db.js",
+          "language": "JavaScript",
+          "bytes": 703,
+          "sourceSha256": "2e7159234dd5ae096515b3fbd49f6a74e9fc96fda1b3279cd96090325e5c494f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/notesCommands.js",
+          "language": "JavaScript",
+          "bytes": 8307,
+          "sourceSha256": "340182e9500981d6414b041e90cb3738abaacd23dfa2a00cde6d692a93ddf5b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/server.js",
+          "language": "JavaScript",
+          "bytes": 1411,
+          "sourceSha256": "bca8a260db7e212d26a3b970a8ac8a1ca424dbe7c3ff7f12ca66b93e6dcdebc0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/styles.js",
+          "language": "JavaScript",
+          "bytes": 3957,
+          "sourceSha256": "5aa2374caaf179a9bc8404f0bcff8bc256abf7814c02030e7a3f478b2a816886",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/template.html",
+          "language": "HTML",
+          "bytes": 1543,
+          "sourceSha256": "ee103d897be8404b1b7a88d2f2d94d554dc3393bdddd6f31595f812d919860ba",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week5/notes_cli/src/utils.js",
+          "language": "JavaScript",
+          "bytes": 1989,
+          "sourceSha256": "dd86488447468ce8511502b91da3d74357801e9c6492828642b9125ea5dd7b3e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/backEnd/jest.config.js",
+          "language": "JavaScript",
+          "bytes": 215,
+          "sourceSha256": "97d839591e8dbf0065bcde697b9e00879a326368379a50609d610d49a4044b64",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/backEnd/src/db.js",
+          "language": "JavaScript",
+          "bytes": 945,
+          "sourceSha256": "ea2cf68f57bf457fe36d72e8843f18c99fae6b8945fc24cf405fbbbc4c81f3fc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/backEnd/src/index.js",
+          "language": "JavaScript",
+          "bytes": 149,
+          "sourceSha256": "8d97aa236e89a22e6ee2a9a7dda44bc64e01226cc52dd662e58ed7c67d88ef72",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/backEnd/src/routes.js",
+          "language": "JavaScript",
+          "bytes": 2509,
+          "sourceSha256": "d86251753e5229af0f5673e62ea820813e4abb6c4efb8c1949d1a13e53520954",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/backEnd/src/server.js",
+          "language": "JavaScript",
+          "bytes": 270,
+          "sourceSha256": "c926c1a939d5ed0c3b7338a83ddab541bbc168eeb14e0357fa6f2939f6be8063",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/index.html",
+          "language": "HTML",
+          "bytes": 407,
+          "sourceSha256": "b39d41acbfacc5fa3901cd3fc682fcf666bc8b7dc69c751279fcad37e0d6f2d9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/app.css",
+          "language": "CSS",
+          "bytes": 190,
+          "sourceSha256": "82feecece466bec247f71b2f6fcb81efdc3da489646cbde89ccf30c276d6466c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/App.svelte",
+          "language": "Svelte",
+          "bytes": 1660,
+          "sourceSha256": "84c8850d27226d096fbf6766c526d6351443ec8f530b06639e62f9449cafdb54",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/ErrorMessage.svelte",
+          "language": "Svelte",
+          "bytes": 561,
+          "sourceSha256": "b8f30f71b02d23c739d6f5cd9532f64eeb0e5dd70bc5e1c327ea48ee3c27b4b4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/LoadingSpinner.svelte",
+          "language": "Svelte",
+          "bytes": 270,
+          "sourceSha256": "838a3b43b45d007b72ea47fd829b27aa08e328e5b4e8b915359509d0a4fd62e5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/ProgressBar.svelte",
+          "language": "Svelte",
+          "bytes": 633,
+          "sourceSha256": "bbb1006af929ab88e68de07a1ffb7b24654fb8ff7c28462e7455c102f412e934",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/TodoFilters.svelte",
+          "language": "Svelte",
+          "bytes": 1644,
+          "sourceSha256": "b8169ff81a1c2e9790d8659c150c8153eaf5b1566862bffc976631c34ebcf87d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/TodoForm.svelte",
+          "language": "Svelte",
+          "bytes": 1250,
+          "sourceSha256": "7a68d06fc1e4d917bbb1a3d669eb84a959e792a90a4681d76ae044ce7534bfe8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/TodoItem.svelte",
+          "language": "Svelte",
+          "bytes": 3277,
+          "sourceSha256": "82e0a6105d7d9527992fab8a0ff4d031b4d577b703868bbca952d2605c917605",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/TodoList.svelte",
+          "language": "Svelte",
+          "bytes": 3448,
+          "sourceSha256": "17a17904f2c7c0d2552a2daec1a38b1625f8381d76a920e554554540db8b7452",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/components/TodoStats.svelte",
+          "language": "Svelte",
+          "bytes": 2391,
+          "sourceSha256": "d77750fd1d61a401aa58e9b8d1b0f86dea5285b98b4adee2d262a96246a487ff",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/stores/todoStore.svelte.js",
+          "language": "JavaScript",
+          "bytes": 3586,
+          "sourceSha256": "9757c5bf73b21e26eeab4da5ab9da650026e6a0a4dcc056321d00dbc051dcc74",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/utils/api.js",
+          "language": "JavaScript",
+          "bytes": 953,
+          "sourceSha256": "873aee4769715471d0e019df3df0a4fc024635821c49157827c767d073c4f857",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/utils/constants.js",
+          "language": "JavaScript",
+          "bytes": 145,
+          "sourceSha256": "0061e91130eb56fa389d33c7ddcd6ba01992f478762ddaaca12c9e30da20355b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/lib/utils/todoTransitions.js",
+          "language": "JavaScript",
+          "bytes": 516,
+          "sourceSha256": "44d39f575bfd76bc7f386f0d074294ce6293818845c72bf4c1ba02e0463eff46",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/src/main.js",
+          "language": "JavaScript",
+          "bytes": 172,
+          "sourceSha256": "d5d48475db14abbfe896356df04c10f4884a1215804fa7e2ccf3249288e9d1b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 295,
+          "sourceSha256": "486ecd3b3429e4fe058f253617e26892cf887cf1f9e0d121ea5e4ea95bb760e0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week6-7/ToDoApp/frontEnd/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 237,
+          "sourceSha256": "69298a55d79ff33682b0bc98384b0fe11ac58d0a631be6251d5d418886a06e44",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/babel.config.js",
+          "language": "JavaScript",
+          "bytes": 147,
+          "sourceSha256": "156a1209fba793432877fb50b20fe83d9c814eecc12212c9cc66a56201437bb8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/eslint.config.js",
+          "language": "JavaScript",
+          "bytes": 436,
+          "sourceSha256": "be72ccd7644587ea7935140ff1882796bcac641b0bd60af2050a07d86fe5d15c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/jest.config.js",
+          "language": "JavaScript",
+          "bytes": 96,
+          "sourceSha256": "b5bc0eea419a20ca1dfd7f5790e7c20a683d61f1fbea3d666466fae3aea268ab",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/__test__/tasks.test.js",
+          "language": "JavaScript",
+          "bytes": 6682,
+          "sourceSha256": "d50eef039a26e9e1e2d8ca71a1907796e41d2846ef6ab50e4d5cc017654909d5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/__test__/taskValidation.test.js",
+          "language": "JavaScript",
+          "bytes": 7099,
+          "sourceSha256": "0265499fa86b3108c783014bed5cbd9ad43ef84febcc60af27540c6cae9abbb3",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/controlers/authController.js",
+          "language": "JavaScript",
+          "bytes": 5800,
+          "sourceSha256": "98052276b3340684a69c80b79b00f58a25c7f94180a0f5a4d6102d3937f5c251",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/index.js",
+          "language": "JavaScript",
+          "bytes": 264,
+          "sourceSha256": "9ce346350d49e4f4488aad0011ff830d2502a1d5f175f568453aa7c00e66e317",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/middlewares/auth.js",
+          "language": "JavaScript",
+          "bytes": 553,
+          "sourceSha256": "c1881849446e6428c5cc9348aafe42c0664d9e844c387aab6646e7124d64b683",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/middlewares/error.js",
+          "language": "JavaScript",
+          "bytes": 952,
+          "sourceSha256": "cd554f544c6358466cc1eb14cdc03e2ba7166db18905a56397b2423e148e16f9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/middlewares/validate.js",
+          "language": "JavaScript",
+          "bytes": 2762,
+          "sourceSha256": "f5231a819b0ea872d263b4fec928662fcf2bd59e2520d37d24893bbc7b6e1dd2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/middlewares/validation.js",
+          "language": "JavaScript",
+          "bytes": 4515,
+          "sourceSha256": "403bb63e64834f9212035b0199c66c02e28338096d9ea5bd11927da7b90989ee",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/models/connect.js",
+          "language": "JavaScript",
+          "bytes": 2222,
+          "sourceSha256": "c7c2d9eed3e671e1f0257494ab53bd61e58f9607fec89c8eab53585009f1a145",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/models/projectDB.js",
+          "language": "JavaScript",
+          "bytes": 142,
+          "sourceSha256": "9a770fdd067ba890ea0114b31fbc28c351c88f8d4522f0a88fda872d4ad9faa4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/models/userDB.js",
+          "language": "JavaScript",
+          "bytes": 922,
+          "sourceSha256": "7f408e0229e6e25b407f4b3b804495dd6006e17a071df8ce2bb77a34ccda6b9a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/routes/authRoutes.js",
+          "language": "JavaScript",
+          "bytes": 727,
+          "sourceSha256": "6e13e6955367deae616d537df0d914ecbba64142e53d702825fe186b608dab44",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/routes/devRoutes.js",
+          "language": "JavaScript",
+          "bytes": 878,
+          "sourceSha256": "5a34d5b0f3beeff2f7e55e77a76835fa736c038df9ba34cc91ec2063e5b243f1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/routes/tasksRoutes.js",
+          "language": "JavaScript",
+          "bytes": 2061,
+          "sourceSha256": "eb56e21a99b3b6258113f13c9f31e56afa69570f46e4e799e1322d5e281e281f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/seed.js",
+          "language": "JavaScript",
+          "bytes": 4160,
+          "sourceSha256": "c8a723f5a82887b081c77866c791fa764a1701440122c64e586d3c7c33542c43",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/server.js",
+          "language": "JavaScript",
+          "bytes": 840,
+          "sourceSha256": "6d2411110eb5ef31d08973759981d1825037932dbdec1cdc947e1fdb235a2b64",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/utils/jwt.js",
+          "language": "JavaScript",
+          "bytes": 709,
+          "sourceSha256": "fd8ef26422e4647e9ff991490be46d9d91a74cad58580111bc7e52a3c5863e64",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week8/task-manager/src/utils/password.js",
+          "language": "JavaScript",
+          "bytes": 292,
+          "sourceSha256": "968b9c4dd2a121fb0aed6c132872f24d2a4a2cdaddcf83af2f5d2e45ae06385f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/seed.js",
+          "language": "JavaScript",
+          "bytes": 17287,
+          "sourceSha256": "6c731389241c1b7963c0b182422f30f5c7c3c1a9ddad54841960b9c9f1446a22",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/controllers/authController.js",
+          "language": "JavaScript",
+          "bytes": 8435,
+          "sourceSha256": "e8d1a5c384d02ec86ab24933dd6f354a2cd318334643d5acff3a69bb66a87fef",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/controllers/categoriesControllers.js",
+          "language": "JavaScript",
+          "bytes": 1027,
+          "sourceSha256": "56c89ea78105a3fbba9c4d4ea56f064ae374cc6e7b7ac989312486e2db1ec367",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/controllers/postController.js",
+          "language": "JavaScript",
+          "bytes": 4933,
+          "sourceSha256": "9caea6495e4ef2c0dc2edb39d297c540ed485db64ba4d75df7efc3c085b802d5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/controllers/tagsControllers.js",
+          "language": "JavaScript",
+          "bytes": 561,
+          "sourceSha256": "1baf34756aa67a016f14ae3d772236d56888e4ba70e5cdc8e4f598aa4601b8a7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/index.js",
+          "language": "JavaScript",
+          "bytes": 288,
+          "sourceSha256": "acc280909c63691e8b7db2fa3cdcce13556b0089fdfce36aedaa9d4150785fd5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/middlewares/auth.js",
+          "language": "JavaScript",
+          "bytes": 502,
+          "sourceSha256": "edb7ccef8c35cb729029dac116e1c1836c1fe18f28f5381deabbf31d953b904c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/middlewares/error.js",
+          "language": "JavaScript",
+          "bytes": 889,
+          "sourceSha256": "a19f19641a249312cfd1ea549d66c0b2c104af00c5c96454b0ce9cafaad24957",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/middlewares/uploadImage.js",
+          "language": "JavaScript",
+          "bytes": 974,
+          "sourceSha256": "306f07c7fc01d49361875db60157cb83199ac2d0b62de3779bd3529606c510c8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/middlewares/validate.js",
+          "language": "JavaScript",
+          "bytes": 2550,
+          "sourceSha256": "42764d0bbb0a5dea269d552c6df88285d5b63a8f577c55e1f86ec43f4aa45967",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/middlewares/validation.js",
+          "language": "JavaScript",
+          "bytes": 4321,
+          "sourceSha256": "650f04b2ed0963db069f94cb5d35e2b52ac1af965de2e4a7443c8612d8de2a22",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/models/blogPostDB.js",
+          "language": "JavaScript",
+          "bytes": 2288,
+          "sourceSha256": "8e3ca83c4d108a44cc15884b1587fbab4b9ff99d55f1957873ef069c8e33e669",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/models/categoriesDB.js",
+          "language": "JavaScript",
+          "bytes": 457,
+          "sourceSha256": "7e17f88b8b02e8ff3743070b116c78e353b0ce3489c442ec1578b2318bff1689",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/models/connect.js",
+          "language": "JavaScript",
+          "bytes": 235,
+          "sourceSha256": "542f907813e1dff03f79fe28bdd7f95ac497f80c177f8e0ef0b01d62c870b8e6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/models/tagsDB.js",
+          "language": "JavaScript",
+          "bytes": 180,
+          "sourceSha256": "c1e8903a2c5661f419b4ec4662992e1cf08a6b0f2cbac890db03ab9aa3654f17",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/models/usersDB.js",
+          "language": "JavaScript",
+          "bytes": 1020,
+          "sourceSha256": "4f51ae9398a06ecc9fc98851f48f0d9320aa90427bc1b57a05963f632c778ba0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/routes/authRoutes.js",
+          "language": "JavaScript",
+          "bytes": 770,
+          "sourceSha256": "afdf75acfbb27337ed9718c061f79a851462a47e50dfa7fdc80b7cc21d47a600",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/routes/categoriesRoutes.js",
+          "language": "JavaScript",
+          "bytes": 234,
+          "sourceSha256": "6e4423a0d92eb6ab53522940424c7e8b7c97b851b17f9661aaa4bf4b116c9eac",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/routes/postRoutes.js",
+          "language": "JavaScript",
+          "bytes": 740,
+          "sourceSha256": "838fe72313c376c138b6dc5dc00bc1ea7b90fbd7c02afeb42a58d9db4343028f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/routes/tagsRoutes.js",
+          "language": "JavaScript",
+          "bytes": 200,
+          "sourceSha256": "0605f4fa66ad9f2bb61e8ebaa1fbf24500c31c847c44e468974aa593cfe983ac",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/server.js",
+          "language": "JavaScript",
+          "bytes": 1351,
+          "sourceSha256": "9edd7a14e427e0796de94c28399b3aa48844a992026bc90f97ff4cfdb7996bbc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/utils/jwt.js",
+          "language": "JavaScript",
+          "bytes": 690,
+          "sourceSha256": "1f3a2dfcc0f2012a11891ae6c9f78d9b7296c342e05a4e77c758efdbed5dd6e2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_backend/src/utils/password.js",
+          "language": "JavaScript",
+          "bytes": 290,
+          "sourceSha256": "67ab0829d8ab96ffe278275bcd52fcccc7d3c91d0a4bb42cf07afe954b834c14",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/eslint.config.js",
+          "language": "JavaScript",
+          "bytes": 768,
+          "sourceSha256": "dc24cfefb9ed1b7128bd78b6193c125ab417e00352973145d3e125283a3e276b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/app.css",
+          "language": "CSS",
+          "bytes": 544,
+          "sourceSha256": "f58ad92788c5152644da23d4284543a4f33c2a0db56e64c87e684fbb1c5da873",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/app.html",
+          "language": "HTML",
+          "bytes": 388,
+          "sourceSha256": "4b4c913d6c4f5a40680855733d1075eb1ca2235c6350fe7cdafe8f75327faad5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/api.js",
+          "language": "JavaScript",
+          "bytes": 2304,
+          "sourceSha256": "4b27afa1b885e74c6e0462af707b2429bf72f0299ca51c7dd892bd1c85f405c6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/auth/authForms.svelte",
+          "language": "Svelte",
+          "bytes": 9846,
+          "sourceSha256": "d589da3735ebead2860834e846453c51516d56bb101fbfaa6d65632ecaf14e85",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/DropDown.svelte",
+          "language": "Svelte",
+          "bytes": 2204,
+          "sourceSha256": "7b29fb0630b858ced10426aa3f2bdc8428b3f85170abf7758e0f77549761bfb1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/Footer.svelte",
+          "language": "Svelte",
+          "bytes": 2116,
+          "sourceSha256": "70fd9da5cac69bf02f9bbaaa08c2d976101dbfa21ea1f6c40c441d326c6d8cac",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/Header.svelte",
+          "language": "Svelte",
+          "bytes": 3024,
+          "sourceSha256": "a689eee7859aa8d6c35d97b92e3dbd81c7ed89071eb242dc184f4a96c8857275",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/ImageUploader.svelte",
+          "language": "Svelte",
+          "bytes": 1862,
+          "sourceSha256": "145346dca5d5aee83d54609e73cd0deb9255837b8f6ea7cbbc9d9183ee99e367",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/MetaField.svelte",
+          "language": "Svelte",
+          "bytes": 380,
+          "sourceSha256": "a83f187380de735800073ed8a4c435b744179ee0a028e80dcf5872266b24e249",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/PostPreview.svelte",
+          "language": "Svelte",
+          "bytes": 1174,
+          "sourceSha256": "711069479285b258e412c0b09e6b4a8e37bef5988c88f0ada57014d8119a8b4c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/PublishPanel.svelte",
+          "language": "Svelte",
+          "bytes": 1127,
+          "sourceSha256": "5d3bf9883902905adf78d74349e9f71f59102ffb179d8268da801fc0649e9687",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/RichTextEditor.svelte",
+          "language": "Svelte",
+          "bytes": 6766,
+          "sourceSha256": "0658d8aab5bebbb64c43add58ff6217d2a4b0a88462fb20c7ab5e970a33db52d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/new-story/TagManager.svelte",
+          "language": "Svelte",
+          "bytes": 2139,
+          "sourceSha256": "760d6f1fa92ffafc7ad21b3451603b3596d7f52a48f04ba60d01beb528e740e6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/Pagination.svelte",
+          "language": "Svelte",
+          "bytes": 637,
+          "sourceSha256": "94f6d217035ef450134120f355b0308037e284d437d2cf746cbce6e89bfb0024",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/PostCard.svelte",
+          "language": "Svelte",
+          "bytes": 1488,
+          "sourceSha256": "409a7e84fcd2e57d0645f25ad5143b13abe760e271a64e8b4d1005aa102e44cd",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/components/TrendingPost.svelte",
+          "language": "Svelte",
+          "bytes": 3888,
+          "sourceSha256": "f8fd5813ccc567c8845be1b18e2f8675869d2126eec0baadf94d533c56f7299f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/data/authStore.js",
+          "language": "JavaScript",
+          "bytes": 6771,
+          "sourceSha256": "adfb9bbda65e95a2a91aa6da2f10191b46fbfd8ead6380872c7f4afb7caa793f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/data/profileStore.js",
+          "language": "JavaScript",
+          "bytes": 1,
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/index.js",
+          "language": "JavaScript",
+          "bytes": 39,
+          "sourceSha256": "a5890b15fb943a1bd23e09d2b14bf32eb14bee4615cf4605a78ae5c4210d9049",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/lib/utils.js",
+          "language": "JavaScript",
+          "bytes": 253,
+          "sourceSha256": "9569dfd2ebd179811bbf5fda8795ece0e2531eba3bf998173ed46603ca67e6cb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/+layout.server.js",
+          "language": "JavaScript",
+          "bytes": 263,
+          "sourceSha256": "4d7ba7bd3a3d58f2175579c43e6a3a28888a26155d9cac705af5a9eaee86153f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 1384,
+          "sourceSha256": "f200eb8422e46df4d89863a7455fd2e4c21659bdfe65b88b4ec4ab526bc5752a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/+page.svelte",
+          "language": "Svelte",
+          "bytes": 8109,
+          "sourceSha256": "ecc37ba2d52cd975bdc135d247a71758d1981b96a7dbe53ce5b67473ada21a82",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/[slug]/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 85,
+          "sourceSha256": "4fbf8a54d5214152509c449c199e2a912372920cb77cc83e16145b53d773e97a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/[slug]/+page.server.js",
+          "language": "JavaScript",
+          "bytes": 610,
+          "sourceSha256": "5130a09d39d21288ee7da2830e6a155f2f7dbc27526a71d1e88bad08fa2e6a07",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/[slug]/+page.svelte",
+          "language": "Svelte",
+          "bytes": 5049,
+          "sourceSha256": "07b1ebfac8627d51c0c39d66a7355196b1d6211c9ab6d049ae12cce0379b21ed",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 71,
+          "sourceSha256": "188775c425568d8d28aa5a6ac50674dcbd51a68cb75f2346a5c71fa9173a7aff",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/+page.server.js",
+          "language": "JavaScript",
+          "bytes": 1024,
+          "sourceSha256": "c9580609af15c06171cadabb7260cd9c70b5f377a5691b9863e090b7e60bdd6b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/blog/+page.svelte",
+          "language": "Svelte",
+          "bytes": 3000,
+          "sourceSha256": "eb3e50796d8115811d66dfc3809902d29881b45e3a54454324268a9528212804",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/new-story/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 69,
+          "sourceSha256": "feadfce87776948e1a5de079f9d4f62b03d28c33ed6e31a17eb65f5d33d33536",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/new-story/+page.server.js",
+          "language": "JavaScript",
+          "bytes": 1174,
+          "sourceSha256": "71aea32f5056bb40b2949440a48ca7eb111c4316589bdc9fd2c4de67a8e105a1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/new-story/+page.svelte",
+          "language": "Svelte",
+          "bytes": 8197,
+          "sourceSha256": "dbde43ab203ba0fd392d5a15ecafd4b96d2f6305953b982be2a508060f64e9fc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/profile/+layout.svelte",
+          "language": "Svelte",
+          "bytes": 13,
+          "sourceSha256": "e0be4f04e5d37b33329628b330b4195af4d8a723084aadc802eea93ea6a3899c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/profile/+page.server.js",
+          "language": "JavaScript",
+          "bytes": 1618,
+          "sourceSha256": "538e4311e878055cd7d45a73d726cf82e999d1a43a2f5e316ad105a972b0b1ea",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/src/routes/profile/+page.svelte",
+          "language": "Svelte",
+          "bytes": 9143,
+          "sourceSha256": "493a1f13b6e7246a8bc59d9f588131252ebc28419a4cc1f8e2e5882d8ef1cbc4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 254,
+          "sourceSha256": "626366e2f0adfe5b5da87df29f3b6fd8244b9298c88c4f28481791c50bee28ae",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "week9-10/blog_frontend/vite.config.js",
+          "language": "JavaScript",
+          "bytes": 356,
+          "sourceSha256": "80320c6746dfd2a67291ceb6bcceb8e158698aad62dd75cbe1da10b732f9b2e2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 502,
+        "dependency/generated/vendor/editor/checkpoint directory": 19
+      }
+    },
+    {
+      "repository": "E-Commerce",
+      "branch": "main",
+      "commit": "204603a20b27db39f01674a7b883affa7ca63fb3",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "204603a20b27db39f01674a7b883affa7ca63fb3",
+          "eligibleFiles": 23,
+          "eligibleBytes": 42462
+        }
+      ],
+      "languages": {
+        "JavaScript": 39543,
+        "HTML": 2028,
+        "CSS": 891
+      },
+      "files": [
+        {
+          "path": "craco.config.js",
+          "language": "JavaScript",
+          "bytes": 186,
+          "sourceSha256": "735d658a8f39ca95bdfe584fd1bb10ac72395c56ae329cc79e4cf1c74a9da2f3",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "public/index.html",
+          "language": "HTML",
+          "bytes": 2028,
+          "sourceSha256": "3f67c92a14c956117395bb8ce8fe8d5abe3a1a216fe426984121bb1917cb9817",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.css",
+          "language": "CSS",
+          "bytes": 810,
+          "sourceSha256": "c059326e7ce4ce98b50397a59ef25260ab4ce9f764f9694787b2534ae8383d11",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.jsx",
+          "language": "JavaScript",
+          "bytes": 282,
+          "sourceSha256": "8c7b3c22dec729d71581ff696dd9b553c3d2e3c24642700e2b89b800e8724474",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.test.js",
+          "language": "JavaScript",
+          "bytes": 246,
+          "sourceSha256": "f7784693194b8657d1bf70c37ea70f4a2d694c4566ec41550a8e650eb600aaa4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/About/About.jsx",
+          "language": "JavaScript",
+          "bytes": 1937,
+          "sourceSha256": "884816a606c8f038529581ad5c4d22c9eab02b8109aa75b2320082b02011cdaf",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Cart/Cart.jsx",
+          "language": "JavaScript",
+          "bytes": 4943,
+          "sourceSha256": "806d129ae5f6d6ca3cca0b88654b7ff75e868a00c1fbb994933ccd79a33b93d4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Cart/CartItem.jsx",
+          "language": "JavaScript",
+          "bytes": 3749,
+          "sourceSha256": "691be7e1126c8aa92629fb1177a217e84c227bad2843b90af6201903c9b66d8d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Checkout/Checkout.jsx",
+          "language": "JavaScript",
+          "bytes": 3437,
+          "sourceSha256": "0179554cadb3ae73a6f0d306a30526aaac8515f1a297d24721e0af78093a4037",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Checkout/CheckoutForm.jsx",
+          "language": "JavaScript",
+          "bytes": 7609,
+          "sourceSha256": "d5c883b092f589fbc4f68746fada1399d9fb6aff70253abc7ef155a3132d8a50",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Contact/Contact.jsx",
+          "language": "JavaScript",
+          "bytes": 2913,
+          "sourceSha256": "d59054af0811e03c7fd5b75e40e7a997738f4302a9f57574e3bbf30b403dd030",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Footer/Footer.jsx",
+          "language": "JavaScript",
+          "bytes": 1560,
+          "sourceSha256": "3e702b658fe3d48cf36baa884f39b40157163c4a34ce01874c4fed4850deb4ba",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/MainLayout/Main.jsx",
+          "language": "JavaScript",
+          "bytes": 1977,
+          "sourceSha256": "70551e7399d9273177b5282bc96573f6bd57529c1683d7712b78338d02413d07",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Navbar/Navbar.jsx",
+          "language": "JavaScript",
+          "bytes": 2103,
+          "sourceSha256": "df0d95c2ba79995bf99572b202663c010dbdcc53d13eec6c6da58a618f5449c8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/OrderConfirmation/OrderConfirmation.jsx",
+          "language": "JavaScript",
+          "bytes": 633,
+          "sourceSha256": "0d945d9557349ce2a7d9dfebcf61c3b940213eb1ce7b88a8f31279d08177c0e0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Products/AllProducts.jsx",
+          "language": "JavaScript",
+          "bytes": 1093,
+          "sourceSha256": "63198047e9805f62d758a85d13d67e3be665498bde7561bb7ef3d5c28d7caf0f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Products/Product.jsx",
+          "language": "JavaScript",
+          "bytes": 4374,
+          "sourceSha256": "7fbff0b91364fc99d2aaf8369950b193de992e87cc90b06bfe4613bbbe412dda",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/context/ProductsContext.jsx",
+          "language": "JavaScript",
+          "bytes": 1011,
+          "sourceSha256": "7b8b003164d6fe0c0630c4b235ff2004e278fb5d243562f3f81434d913b73fa6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/index.css",
+          "language": "CSS",
+          "bytes": 81,
+          "sourceSha256": "9f56fd61f124b0265b0fa0cd2335bb73f646980b5104d075873dd578dca212d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/index.js",
+          "language": "JavaScript",
+          "bytes": 500,
+          "sourceSha256": "14c67ad38f79b00139b690f6ca2ddc04525e38a0a3b34ce4ffdc820b64726aee",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/reportWebVitals.js",
+          "language": "JavaScript",
+          "bytes": 362,
+          "sourceSha256": "714851669856152806c289f9aac6240b414bbac50c60ee4f7e6247f31eac0c1c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/setupTests.js",
+          "language": "JavaScript",
+          "bytes": 241,
+          "sourceSha256": "22583759d0045fdf8d62c9db0aacba9fd8bddde79c671aa08c97dcfd4e930cc6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tailwind.config.js",
+          "language": "JavaScript",
+          "bytes": 387,
+          "sourceSha256": "2107ac51739046e3cc37f100f0a0c06afcd0a54a65a8b845982dc92b59e93167",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 12
+      }
+    },
+    {
+      "repository": "e-commerce-with-redux",
+      "branch": "master",
+      "commit": "638b4417673a3e5f44b07f751bec91e3ca56779c",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "638b4417673a3e5f44b07f751bec91e3ca56779c",
+          "eligibleFiles": 34,
+          "eligibleBytes": 57376
+        }
+      ],
+      "languages": {
+        "JavaScript": 54454,
+        "HTML": 2031,
+        "CSS": 891
+      },
+      "files": [
+        {
+          "path": "craco.config.js",
+          "language": "JavaScript",
+          "bytes": 186,
+          "sourceSha256": "735d658a8f39ca95bdfe584fd1bb10ac72395c56ae329cc79e4cf1c74a9da2f3",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "public/index.html",
+          "language": "HTML",
+          "bytes": 2031,
+          "sourceSha256": "b3dfe01888723cd28aca8354bf184d58dd3808038e515ed8cba490f98c67038e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.css",
+          "language": "CSS",
+          "bytes": 810,
+          "sourceSha256": "c059326e7ce4ce98b50397a59ef25260ab4ce9f764f9694787b2534ae8383d11",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.js",
+          "language": "JavaScript",
+          "bytes": 466,
+          "sourceSha256": "68896bfceb08576141ff2d9919b685ef199a05d765c354616c69e3a4b1573485",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.test.js",
+          "language": "JavaScript",
+          "bytes": 246,
+          "sourceSha256": "f7784693194b8657d1bf70c37ea70f4a2d694c4566ec41550a8e650eb600aaa4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/About/About.jsx",
+          "language": "JavaScript",
+          "bytes": 1911,
+          "sourceSha256": "5085f622527adff430981b72d9529188c7053ff928bbb1a9fc7d31abd78981b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Cart/Cart.jsx",
+          "language": "JavaScript",
+          "bytes": 4484,
+          "sourceSha256": "d24d62a13e483ab4b082a6607f505d8b7265e394126da75b1abf4e6071309bf5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Cart/CartItem.jsx",
+          "language": "JavaScript",
+          "bytes": 3626,
+          "sourceSha256": "e051bc821dd7764318f6177e971d676030244469ba8e3dbabef36dba96b0f934",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Checkout/Checkout.jsx",
+          "language": "JavaScript",
+          "bytes": 3339,
+          "sourceSha256": "2307d89dcd8b8d07567acf00186f22071a87e3b173a948359a4261633f62a925",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Checkout/CheckoutForm.jsx",
+          "language": "JavaScript",
+          "bytes": 7924,
+          "sourceSha256": "c1277e236c7eda8f6c00f3eb4c2f1670b7445ccd6f32085f16b9b06d2c104abf",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Contact/Contact.jsx",
+          "language": "JavaScript",
+          "bytes": 3038,
+          "sourceSha256": "845ce4d07743933e813e8fb9ecf3a1f775bb946d74fe666b625c5973cf1d2bd9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Footer/Footer.jsx",
+          "language": "JavaScript",
+          "bytes": 3369,
+          "sourceSha256": "238b18e9dbe4f76704ecfa16cb4cc32feda8970ef9f0726c6b6fd51bce383171",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/MainLayout/Main.jsx",
+          "language": "JavaScript",
+          "bytes": 1269,
+          "sourceSha256": "767ebc01c053dc67c1538af2d0881f5b788481fcf604c3762916d640cf0adb7b",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Navbar/Navbar.jsx",
+          "language": "JavaScript",
+          "bytes": 3325,
+          "sourceSha256": "954e840dfa104de94e1fab6c2f54321a68e4d286cbab7cedeebdd190c11ba4d0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/OrderConfirmation/OrderConfirmation.jsx",
+          "language": "JavaScript",
+          "bytes": 7304,
+          "sourceSha256": "22b9b94a420231b9b8b9cbebed62d7672fe661f536e1d30d78d962f557f0636d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Products/AllProducts.jsx",
+          "language": "JavaScript",
+          "bytes": 1985,
+          "sourceSha256": "3ac085bb0e06631017a3ac9304a76727233850ebd0b0300fbc9d63018d0cd0fa",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Products/Product.jsx",
+          "language": "JavaScript",
+          "bytes": 4259,
+          "sourceSha256": "b5590fd30a61b23e78ee87be3f4132a762245c25cff53398709572365a4d916c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/helper/CartHelper.js",
+          "language": "JavaScript",
+          "bytes": 570,
+          "sourceSha256": "7fdf3f73370e694517c015e23bfcaed045abc005801aa5b1bf138113c94eef5d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/Hook/useFetchData.js",
+          "language": "JavaScript",
+          "bytes": 741,
+          "sourceSha256": "bf56fbed79059e7adb46b2605adb60fdc629cc046f2c682c5d6c75f95d54e074",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/index.css",
+          "language": "CSS",
+          "bytes": 81,
+          "sourceSha256": "9f56fd61f124b0265b0fa0cd2335bb73f646980b5104d075873dd578dca212d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/index.js",
+          "language": "JavaScript",
+          "bytes": 500,
+          "sourceSha256": "b34629e53d3c671b048c62d5783f7d4d6bb9d14fb40f2ff8518228c53bb06ee3",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actions/CartActions.js",
+          "language": "JavaScript",
+          "bytes": 686,
+          "sourceSha256": "2a1f08f04130701d7ec25017abf4c876face40823303314b464b2b27b096dc5e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actions/MenubarActions.js",
+          "language": "JavaScript",
+          "bytes": 245,
+          "sourceSha256": "40a618c9a8f7e204d5b9ffaa8b6604d116006793da4c447af5b87b703197eab2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actions/ProductsAction.js",
+          "language": "JavaScript",
+          "bytes": 388,
+          "sourceSha256": "54dbaabcf15ae43f98d05dd511e3bf9999e85968000670da562c5d9179f62b64",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actionTypes/CartActionType.js",
+          "language": "JavaScript",
+          "bytes": 287,
+          "sourceSha256": "b85cc3a640a6dc405646b13e49b0a4aa260271e0455219ba6f94ce53ebf4c9fb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actionTypes/MenubarActionType.js",
+          "language": "JavaScript",
+          "bytes": 135,
+          "sourceSha256": "2eb9d29cd0dbd8587edb8e7f351205e1104010cd13cb3c47d1ad3b8bf2bf973e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/actionTypes/ProductsActionType.js",
+          "language": "JavaScript",
+          "bytes": 177,
+          "sourceSha256": "433b4cf25ac2dfacd30f73ef1a8a32e29fe628a3d82f10b76913d27e20a95501",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/reducers/CartReducer.js",
+          "language": "JavaScript",
+          "bytes": 1188,
+          "sourceSha256": "077a6f41c3a195525c7d2e0f3a1e60c1755bc794700819fd559c539b6222f342",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/reducers/MenubarReducer.js",
+          "language": "JavaScript",
+          "bytes": 486,
+          "sourceSha256": "baf3128403c15db81bdd894807aa7e98b00fdb8eaaf6ce8119a4aab9244952ca",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/reducers/ProductsReducer.js",
+          "language": "JavaScript",
+          "bytes": 656,
+          "sourceSha256": "dbaebadde8736b35e380a0d3990eacb54d947952c5f0ecc18ef3c49ffad7c6e9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/reducers/RootReducer.js",
+          "language": "JavaScript",
+          "bytes": 530,
+          "sourceSha256": "4c77eabad74bd0e1c2f0389628a4eb7b823a5abdd1a2f7c2b6baeb878511c6bc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/redux/store/store.js",
+          "language": "JavaScript",
+          "bytes": 336,
+          "sourceSha256": "f0832affe76eb9bad303627e5b396679200c5043c289e0feb03a98ccc6f6c31d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/reportWebVitals.js",
+          "language": "JavaScript",
+          "bytes": 362,
+          "sourceSha256": "714851669856152806c289f9aac6240b414bbac50c60ee4f7e6247f31eac0c1c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tailwind.config.js",
+          "language": "JavaScript",
+          "bytes": 436,
+          "sourceSha256": "6b203f37c558fd71f6c5cc90191b258c14d3eeece6d8c5dfca19735a221dd2c4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 13
+      }
+    },
+    {
+      "repository": "IAOR-Group-29-Handwritten-Character-Classification",
+      "branch": "main",
+      "commit": "91cfeea2c46c1bdc53785ba6693cb873eb11cdc8",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "91cfeea2c46c1bdc53785ba6693cb873eb11cdc8",
+          "eligibleFiles": 21,
+          "eligibleBytes": 116503
+        }
+      ],
+      "languages": {
+        "Python": 116503
+      },
+      "files": [
+        {
+          "path": "src/check_setup.py",
+          "language": "Python",
+          "bytes": 2000,
+          "sourceSha256": "547256005c269162ba7d02d904a3d22bb25686d40a9561bc73cdcb647bb4a5f4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/data_loader.py",
+          "language": "Python",
+          "bytes": 4593,
+          "sourceSha256": "b2a66200a510693544872756f894f34b85bcdf4fc0fc17420d66512163bddb12",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/dataset_analysis.py",
+          "language": "Python",
+          "bytes": 5501,
+          "sourceSha256": "b899e6a356788042f994321223f43c8c9c0a31ff053035eaa91e84cfc02625e7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/digit_utils.py",
+          "language": "Python",
+          "bytes": 2844,
+          "sourceSha256": "6051bcac54f494d682a1424486193f6c1ea27f50c4e0e4d8a38625e76374b752",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/finalize_letter_model.py",
+          "language": "Python",
+          "bytes": 11176,
+          "sourceSha256": "70bb237ed61a871cadc987538d138b23239b3bd83581ffbd3369d6a3cac1f98f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/generate_result_summary.py",
+          "language": "Python",
+          "bytes": 13574,
+          "sourceSha256": "e86590c9e7f85934f8e0dd76f68b145c840f8eb88b7fafa67585b3ba017ff2f0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/inference_custom_images.py",
+          "language": "Python",
+          "bytes": 11293,
+          "sourceSha256": "92cf0419d4b649785775275e96b8804dc3e1e6d7a47901e4bce9b2425587fcd6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/letter_experiment_utils.py",
+          "language": "Python",
+          "bytes": 8202,
+          "sourceSha256": "55840c5cc86bdd6451a8a9291f1efc990f22502262f661d2d59d493b5cff962e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/models.py",
+          "language": "Python",
+          "bytes": 4426,
+          "sourceSha256": "a8dd49fa1a1af84af52438c4ee29ebe6aff26707ff98aae75071350c29ad2cd2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_baseline.py",
+          "language": "Python",
+          "bytes": 2336,
+          "sourceSha256": "c1eb3649a742df432383e831ccd9d57c2de442c8996491ccc43e8f8ccb63b909",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_batch_size_large.py",
+          "language": "Python",
+          "bytes": 2678,
+          "sourceSha256": "ab55a54c166522293f0ea53a8b0d35cd5c5d049227edf21969a545bab9384df7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_batch_size_small.py",
+          "language": "Python",
+          "bytes": 2670,
+          "sourceSha256": "eaf0463da7b41c076a1011fdc626a923067dd97879e9ba3fe0849bcb3f7e8b19",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_complex.py",
+          "language": "Python",
+          "bytes": 2834,
+          "sourceSha256": "d99b767cc6f9d7b7edb71a391e6f057c0d759f83b12a45cd1a81bbbb02ec6865",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_digits_from_scratch.py",
+          "language": "Python",
+          "bytes": 10656,
+          "sourceSha256": "72ce856087fc625f10b160904b234d999bc26c452642662fa394244f032c331e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_epochs_long.py",
+          "language": "Python",
+          "bytes": 2850,
+          "sourceSha256": "31b62c36d5e3bbf4aaedef7cb18fb55c901713f7b499fba56fa5059cee6e0267",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_feature_maps.py",
+          "language": "Python",
+          "bytes": 2663,
+          "sourceSha256": "cbcea2fa0fd8e8526b760f5e7e48d28a8fff39dc6ea1d3a30fcd8700b714b0c9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_kernel_size.py",
+          "language": "Python",
+          "bytes": 2645,
+          "sourceSha256": "f4028ea36540f328c5c5c21cd75e466c42fce0c3a0f14e4053064b9b032b4577",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_learning_rate_high.py",
+          "language": "Python",
+          "bytes": 2888,
+          "sourceSha256": "3bccbcf92294aba9b16735863a165f97ab5577460a56b721cbc9460cbb3a5c9e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/train_learning_rate_low.py",
+          "language": "Python",
+          "bytes": 2854,
+          "sourceSha256": "581df1ba9bd6f96e18cd009c5dc827e5bfac169ea8db18295b28cab19343881e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/training_utils.py",
+          "language": "Python",
+          "bytes": 7022,
+          "sourceSha256": "1d030e9a64330b3d59c82159adb3fa48d18c1bb8e4dcbc653c411a8ad225c3b9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/transfer_learning_digits.py",
+          "language": "Python",
+          "bytes": 10798,
+          "sourceSha256": "b839669c5683ecd494fa3bcba80202a2289708ebed82e6f947569b13b27d3ec6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 70
+      }
+    },
+    {
+      "repository": "LoginSystem",
+      "branch": "main",
+      "commit": "e092e67ece119a012bd63f28ce9735a29142e3a7",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "e092e67ece119a012bd63f28ce9735a29142e3a7",
+          "eligibleFiles": 65,
+          "eligibleBytes": 106811
+        }
+      ],
+      "languages": {
+        "PHP": 80941,
+        "JavaScript": 1431,
+        "SCSS": 3,
+        "Blade": 24436
+      },
+      "files": [
+        {
+          "path": "app/Console/Kernel.php",
+          "language": "PHP",
+          "bytes": 827,
+          "sourceSha256": "ea31d7a9edd57ea2ef709a8e758742877d6b2691c61135b5266a751b7be92223",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Exceptions/Handler.php",
+          "language": "PHP",
+          "bytes": 1141,
+          "sourceSha256": "917f10962ca460a39f0e3a3c2f5d3b64fb76713d779dc471c94dee36f5b6a621",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Controllers/Controller.php",
+          "language": "PHP",
+          "bytes": 361,
+          "sourceSha256": "03b82a5051ca8dd75ed2833cf29cd1747358972471d24c36f74648aaf05b5e8f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Controllers/LoginController.php",
+          "language": "PHP",
+          "bytes": 949,
+          "sourceSha256": "110b9520bf8e020ccab08ce76fdbcd6c536b8ff7b65a785ba52cd13210b0d265",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Controllers/RegisterController.php",
+          "language": "PHP",
+          "bytes": 1129,
+          "sourceSha256": "350fe8c38630f2e8d3956085ebb9d4bf94441fc0da1b208740d36c3767e6f88c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Kernel.php",
+          "language": "PHP",
+          "bytes": 2415,
+          "sourceSha256": "7cfec7a187bc8d247f9b30ec5604a6351a9bc9d18f25d5e4699ab46d504c7f73",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/Authenticate.php",
+          "language": "PHP",
+          "bytes": 469,
+          "sourceSha256": "2c0be9f631263bbae2d83531cbb0f2068aaa0c53a000d5cc2605bf291d7dafc1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/CheckForMaintenanceMode.php",
+          "language": "PHP",
+          "bytes": 335,
+          "sourceSha256": "07d441279f4e835ac402dc04f76025c43b676a27ee9e6d0690f69c9a7bb31aab",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/EncryptCookies.php",
+          "language": "PHP",
+          "bytes": 294,
+          "sourceSha256": "c56acc91a253cc0a078e41e9a093585001c88bac441613582cacaceb063f7731",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/RedirectIfAuthenticated.php",
+          "language": "PHP",
+          "bytes": 582,
+          "sourceSha256": "2e239be4b4e72190b7cd619b59e655a49813cedafcd72c46b95e049060f2e451",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/TrimStrings.php",
+          "language": "PHP",
+          "bytes": 340,
+          "sourceSha256": "03b958f4ee40f3bbde9217c15d07efc6b287ef722d34f4cbab54ffa0b42bc9d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/TrustProxies.php",
+          "language": "PHP",
+          "bytes": 436,
+          "sourceSha256": "6837f6fd72e21e7ff4e42248ec0fa95fdee4ffab7b01f7bf2eae22e040887143",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Http/Middleware/VerifyCsrfToken.php",
+          "language": "PHP",
+          "bytes": 307,
+          "sourceSha256": "5582b6ed9fce97124959649b95e178c5281b7cafc84c47a629c5bd02c08656a0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/AppServiceProvider.php",
+          "language": "PHP",
+          "bytes": 486,
+          "sourceSha256": "69c34408e4048b34edcc89168423e424550f4b29119364533b6d005f27b244ad",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/AuthServiceProvider.php",
+          "language": "PHP",
+          "bytes": 578,
+          "sourceSha256": "77d79e4ccc2fce319e178b57e6d16b152d55e807f95f4eb84e239b5e7dc28c71",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/BroadcastServiceProvider.php",
+          "language": "PHP",
+          "bytes": 380,
+          "sourceSha256": "6dade8c1ce5b4f91204e5c56f821f658f3e24d3d5bbae1a625c6914995ad81d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/EventServiceProvider.php",
+          "language": "PHP",
+          "bytes": 710,
+          "sourceSha256": "de77893fd51e79591a1a04ed728a5f024e171733dcde3e1cf0fe5384c5ed51d6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Providers/RouteServiceProvider.php",
+          "language": "PHP",
+          "bytes": 1663,
+          "sourceSha256": "2490595dac338100dd0b4d4d3766ece0fca8e626f984f40eb15ace5bb68f81ab",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/Rules/Captcha.php",
+          "language": "PHP",
+          "bytes": 860,
+          "sourceSha256": "b55546dd578617287d7744ee9087a1736cf7366a153abc9b58f04ad307205687",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "app/User.php",
+          "language": "PHP",
+          "bytes": 734,
+          "sourceSha256": "605f15fa5d7d7309a0b9bfb7cef3471818f525f7c2adf093004a154dd400dbdf",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "bootstrap/app.php",
+          "language": "PHP",
+          "bytes": 1620,
+          "sourceSha256": "e346d041676171a900406bba87f0658b6d3aebef79bed7e7081213e7ac3c7951",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/app.php",
+          "language": "PHP",
+          "bytes": 9232,
+          "sourceSha256": "f6f0e2551b49b5c70d589a4119e2881e3a95ab7fac6d0ed5bdf16276de14a8aa",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/auth.php",
+          "language": "PHP",
+          "bytes": 3796,
+          "sourceSha256": "57ffc35309daf419fc79ccea4fed2bb5b576f1536c71c51c5e5bc7d1b807f5ee",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/broadcasting.php",
+          "language": "PHP",
+          "bytes": 1601,
+          "sourceSha256": "2fff2b8d5bc41523e6dd90e3539d23160fb23f899930230b1e9b438dabdf98a8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/cache.php",
+          "language": "PHP",
+          "bytes": 3066,
+          "sourceSha256": "68f7753cc33d9e3bd6be12f78923e3d0553dfcce0ceb6026f205b42ce900721c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/cors.php",
+          "language": "PHP",
+          "bytes": 830,
+          "sourceSha256": "992369ab03fe479bfd15299fee44260bb48f5f44c722aa113aacb490e7456c02",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/database.php",
+          "language": "PHP",
+          "bytes": 5054,
+          "sourceSha256": "df1e85513075c64bb3e49336626047f7abdbcfeba673e61a773cb30cf0a7dc41",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/filesystems.php",
+          "language": "PHP",
+          "bytes": 2641,
+          "sourceSha256": "b94d6d07f8edddeeac9c94ebe55188cd223053ebda67c5a7f22c4a48d8225feb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/hashing.php",
+          "language": "PHP",
+          "bytes": 1571,
+          "sourceSha256": "2d30577cc7b8d4cd24a4ac416f2d0a6e5fd0296c05ab04dc581a7d3b6c6e890a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/logging.php",
+          "language": "PHP",
+          "bytes": 2896,
+          "sourceSha256": "e8154af77c0853454cb511e05d2fe97461b812e78e3c7584b7631335ddd8ce4a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/mail.php",
+          "language": "PHP",
+          "bytes": 3160,
+          "sourceSha256": "1306cb2cece7e5ff76a4fc97a8ca62199496951261b6335085f90affb46e155e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/queue.php",
+          "language": "PHP",
+          "bytes": 2717,
+          "sourceSha256": "6f9151fbf7f8c8a4664d834b8fe376e935ce8153c94348eec30781a295206ff1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/services.php",
+          "language": "PHP",
+          "bytes": 950,
+          "sourceSha256": "cd131fd8498f08fdce5b9f57675736a4b47708335bb71c3a3d990a815f68fa6e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/session.php",
+          "language": "PHP",
+          "bytes": 6980,
+          "sourceSha256": "8ba046f96c833b00cee701172bd6ec509867675792c7c1c30b2c8737183f714d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "config/view.php",
+          "language": "PHP",
+          "bytes": 1565,
+          "sourceSha256": "3448a86507390b27a8ffca48c9eab04a7a6eeaf23e8d898553de738d0d32949c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/factories/UserFactory.php",
+          "language": "PHP",
+          "bytes": 876,
+          "sourceSha256": "3ec398cc32b6e8b482f817c625344f4b4724c0924c6c83a9ff986208d22b0c54",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/migrations/2014_10_12_000000_create_users_table.php",
+          "language": "PHP",
+          "bytes": 798,
+          "sourceSha256": "864e1775933e3657da3659241bacdbb2dfcc2a20159a04f7699ba7eb233cd8ed",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/migrations/2019_08_19_000000_create_failed_jobs_table.php",
+          "language": "PHP",
+          "bytes": 774,
+          "sourceSha256": "0e8cffbab747e33cb0bef94b000b88f36a498b4d5cecfddec81bf2a28481465e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/seeds/DatabaseSeeder.php",
+          "language": "PHP",
+          "bytes": 250,
+          "sourceSha256": "ebbd8fd341628175b572df561c0208becf85d74525cd12af7fdf65aa69e2aa10",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "public/index.php",
+          "language": "PHP",
+          "bytes": 1823,
+          "sourceSha256": "4c0dacb2f4715c7a0a09cef13b5614b41468b1c2cd9939d1acf4cd044aca39a5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/js/app.js",
+          "language": "JavaScript",
+          "bytes": 24,
+          "sourceSha256": "ef098c34ce5c06128d48c4320a356a42d8b1dcb412fef9ce243e875b7d11ae74",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/js/bootstrap.js",
+          "language": "JavaScript",
+          "bytes": 869,
+          "sourceSha256": "db76251694bca51ab52cf1c9fda9f43d569b60f042573f4afc18c0186e92a744",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/auth.php",
+          "language": "PHP",
+          "bytes": 617,
+          "sourceSha256": "7f99dce936aebdb18f5d8f03390a21a53708fb2893f2e81193b203bdca94a637",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/pagination.php",
+          "language": "PHP",
+          "bytes": 534,
+          "sourceSha256": "5c9bed6d2c965666d0c8b9f17f93f87cbfc7a240ead19b3b061764e8238e219f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/passwords.php",
+          "language": "PHP",
+          "bytes": 744,
+          "sourceSha256": "1033d4d34a49e17610dee7a13e14d13525472a96396a96c07d3870f337e10498",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/lang/en/validation.php",
+          "language": "PHP",
+          "bytes": 7642,
+          "sourceSha256": "90956905af02a1027a7bd37b99f414c2c3ff54a85e449c01071fa39a5103aaea",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/sass/app.scss",
+          "language": "SCSS",
+          "bytes": 3,
+          "sourceSha256": "101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/auth/login.blade.php",
+          "language": "Blade",
+          "bytes": 6444,
+          "sourceSha256": "19e4404fca4dca721dac8e98cd55bbfb1fd6a31c9a5188c4c3c40240bab78665",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/auth/register.blade.php",
+          "language": "Blade",
+          "bytes": 6514,
+          "sourceSha256": "865990854ce3fe7e8a7d2df6c15f3f7763fe1c2d4c36ae8c156b1b324e0fc327",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/home.blade.php",
+          "language": "Blade",
+          "bytes": 653,
+          "sourceSha256": "522f78f891e6d064dd24c644294d699c6cbcf484740d981912efc253114ff8c2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/lander/successful_login.blade.php",
+          "language": "Blade",
+          "bytes": 3400,
+          "sourceSha256": "7c94a6b714cb5ccc35703633b2663fd96ed17e13fed3289f857aca93c2bec036",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/lander/unsuccessful_login.blade.php",
+          "language": "Blade",
+          "bytes": 747,
+          "sourceSha256": "4a316199f512c68f3e10661e6650458a2ee6e74485310f1e5fffeab3b43335e4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/layouts/app.blade.php",
+          "language": "Blade",
+          "bytes": 3496,
+          "sourceSha256": "df16893a870ff1f1792fb223a7f8e85e7a058ebe3bf5f767556c54aa7ffdea52",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/layouts/navbar.blade.php",
+          "language": "Blade",
+          "bytes": 2529,
+          "sourceSha256": "e29f94ca8023c07d67756fc76f9b08fc827653500a49059f012fa8e02a6fe148",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "resources/views/welcome.blade.php",
+          "language": "Blade",
+          "bytes": 653,
+          "sourceSha256": "522f78f891e6d064dd24c644294d699c6cbcf484740d981912efc253114ff8c2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/api.php",
+          "language": "PHP",
+          "bytes": 566,
+          "sourceSha256": "84b312d39b3b07994238867ddc15fdd1e7e108832f21b1a24ec6a1795eca3420",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/channels.php",
+          "language": "PHP",
+          "bytes": 551,
+          "sourceSha256": "d19eed04c211cc2344b51b1eb7e5915f4c29db86bd4efd4846e2ad145676fc9a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/console.php",
+          "language": "PHP",
+          "bytes": 593,
+          "sourceSha256": "1d1151416d3225afffaafb324e193309f5149ff4e894f14784c77a69701f760d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/web.php",
+          "language": "PHP",
+          "bytes": 797,
+          "sourceSha256": "19fd60df0b382d503c95d604a2bb394c77a3a4ad17e652e8df62925b557d0f39",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "server.php",
+          "language": "PHP",
+          "bytes": 563,
+          "sourceSha256": "aa747cd76a2fd775289a51528d4356f816d3bf594494da626816b5cb80eaf365",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/CreatesApplication.php",
+          "language": "PHP",
+          "bytes": 380,
+          "sourceSha256": "63e92d10f62118215f6a4ee20036e86a26d6867175365429e65de33d0c60ba21",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/Feature/ExampleTest.php",
+          "language": "PHP",
+          "bytes": 340,
+          "sourceSha256": "7cbba5cfd7fa4687beab6231739c949f1f8a6f3fa86edda2e51ea85d6d672f23",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/TestCase.php",
+          "language": "PHP",
+          "bytes": 163,
+          "sourceSha256": "fde47044bae82a492f646384cbc1e636b93c6bf0cea7047c3631e6a26736154d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "tests/Unit/ExampleTest.php",
+          "language": "PHP",
+          "bytes": 255,
+          "sourceSha256": "d55f9763884ade5fb898042ef339c100fc74f79b50d5bb137d446ffb923c1a73",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "webpack.mix.js",
+          "language": "JavaScript",
+          "bytes": 538,
+          "sourceSha256": "5694f1dfca6a26444673312c6b142929e7dd2bba54dbdd0acc708833a60a076e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 30,
+        "dependency/generated/vendor/editor/checkpoint directory": 1
+      }
+    },
+    {
+      "repository": "NahidReza08",
+      "branch": "main",
+      "commit": "5258c6a8b33b7f3b131c0427ac27636f4639ccad",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "5258c6a8b33b7f3b131c0427ac27636f4639ccad",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {},
+      "files": [],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 1
+      }
+    },
+    {
+      "repository": "Real-Time-Face-Mask-Detection",
+      "branch": "master",
+      "commit": "4dd92c65a645fc00f9df24a0b34fdaf8f65c58bc",
+      "selectionReason": "default has no eligible source; selected implementation-bearing conventional branch",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "4dd92c65a645fc00f9df24a0b34fdaf8f65c58bc",
+          "eligibleFiles": 2,
+          "eligibleBytes": 90839
+        },
+        {
+          "branch": "main",
+          "commit": "ec4b927370a80ece2cc334e900fdf679ec7d0f3c",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "Python": 7615
+      },
+      "files": [
+        {
+          "path": "detect_mask_video.ipynb",
+          "language": "Python",
+          "bytes": 4000,
+          "sourceSha256": "9f22194e22efc38445646024c78456db3dfb99b73a2472f43f053137916a5125",
+          "method": "UTF-8 code-cell source only; outputs and Markdown omitted"
+        },
+        {
+          "path": "train_mask_detector.ipynb",
+          "language": "Python",
+          "bytes": 3615,
+          "sourceSha256": "c7f4aa2392702875684b4ed4540f47d69d35deead64761c80675831dba0e18e9",
+          "method": "UTF-8 code-cell source only; outputs and Markdown omitted"
+        }
+      ],
+      "exclusions": {
+        "dependency/generated/vendor/editor/checkpoint directory": 2,
+        "non-source extension (data/binary/config/docs excluded)": 3840
+      }
+    },
+    {
+      "repository": "RESUME-NahidReza",
+      "branch": "main",
+      "commit": "cdb32090c5f4dae86efade96092b9f9393211a91",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "cdb32090c5f4dae86efade96092b9f9393211a91",
+          "eligibleFiles": 2,
+          "eligibleBytes": 17818
+        }
+      ],
+      "languages": {
+        "CSS": 5649,
+        "HTML": 12169
+      },
+      "files": [
+        {
+          "path": "CSS/cv-style.css",
+          "language": "CSS",
+          "bytes": 5649,
+          "sourceSha256": "eca51aeb9a8e24b7925878ad99196ea5a0557a477b37249833bcfeaf6f60f8b4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "index.html",
+          "language": "HTML",
+          "bytes": 12169,
+          "sourceSha256": "744db3a3c8c88421666a6b595bfb1370fc504d31bb13aabfc65ff43ed0a3e7a2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 1
+      }
+    },
+    {
+      "repository": "Resume_NahidReza",
+      "branch": "main",
+      "commit": "65e8d68af2020f0464b300c38f90c6d1e1d0bcc2",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "65e8d68af2020f0464b300c38f90c6d1e1d0bcc2",
+          "eligibleFiles": 2,
+          "eligibleBytes": 17564
+        }
+      ],
+      "languages": {
+        "CSS": 5393,
+        "HTML": 12171
+      },
+      "files": [
+        {
+          "path": "CSS/cv-style.css",
+          "language": "CSS",
+          "bytes": 5393,
+          "sourceSha256": "06c165960ab4a661fb5756eb9b88ce644e58c72ac543d7e842d4370b051057ac",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "index.html",
+          "language": "HTML",
+          "bytes": 12171,
+          "sourceSha256": "ff917bae30ec9f4d323cbd32bd1fa53fb4eb64a80972126c2b14ae857b9d6060",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 3
+      }
+    },
+    {
+      "repository": "Svelte-Basic",
+      "branch": "main",
+      "commit": "a3dc392df5fafeaa0785b574b61c0b888800b676",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "a3dc392df5fafeaa0785b574b61c0b888800b676",
+          "eligibleFiles": 20,
+          "eligibleBytes": 7761
+        }
+      ],
+      "languages": {
+        "HTML": 857,
+        "CSS": 83,
+        "Svelte": 6138,
+        "JavaScript": 612,
+        "TypeScript": 71
+      },
+      "files": [
+        {
+          "path": "index.html",
+          "language": "HTML",
+          "bytes": 857,
+          "sourceSha256": "61cca0a3758ce1330f444ebdb99d34b2b3f9611b87b63d6ba5918eb4772a16b5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/app.css",
+          "language": "CSS",
+          "bytes": 83,
+          "sourceSha256": "fa29b80d24545079cc697a01b8b4d04bb15f255a4205fb8fb40b9902993d6618",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.svelte",
+          "language": "Svelte",
+          "bytes": 84,
+          "sourceSha256": "b4e1aaae75e82396249b12069c4b9e79fbfb4133afc1b378984fa8b486d7c592",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/1_Introduction/Introduction.svelte",
+          "language": "Svelte",
+          "bytes": 636,
+          "sourceSha256": "5155351cad9a4b9467bf89749f22dd62bd6b033952a4791e9a99d44efa65cf9a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/2_Reactivity/Effects.svelte",
+          "language": "Svelte",
+          "bytes": 914,
+          "sourceSha256": "6a81f530434b80000416aa57397b7e8e2ad9b5a61e46a971cb7dfe386793bfd2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/2_Reactivity/State.svelte",
+          "language": "Svelte",
+          "bytes": 779,
+          "sourceSha256": "8c2157fdf3833c7f288d129a80eaf46f9af380424709e25bdd06a7be60a908be",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/2_Reactivity/Universal Reactivity/Counter.svelte",
+          "language": "Svelte",
+          "bytes": 308,
+          "sourceSha256": "bc3def3ef1a0be0c45ea5856c7e1b3c21db926aedaa548dcb1a003794fe7ef13",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/2_Reactivity/Universal Reactivity/Main.svelte",
+          "language": "Svelte",
+          "bytes": 183,
+          "sourceSha256": "6d1ea230b34457db665dbad5a22831e9d95c847d29d90cc4415f37b986437d68",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/2_Reactivity/Universal Reactivity/state.svelte.js",
+          "language": "JavaScript",
+          "bytes": 37,
+          "sourceSha256": "fbfe114dda7fadffa18d890aac8a8c1a65c855aeb0756e1179ff80d3836f4ad8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/3_Props/Course.svelte",
+          "language": "Svelte",
+          "bytes": 143,
+          "sourceSha256": "b1146c8931e4a5b69131f03e9390b0a93e421261c880d27cf8d8db39b0fe1eb7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/3_Props/Main.svelte",
+          "language": "Svelte",
+          "bytes": 330,
+          "sourceSha256": "5bab965f90ce326978edd1c3ea3bdaaa93aaa2ded6641188c767cd61c8aafa43",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/4_Logic/Await.svelte",
+          "language": "Svelte",
+          "bytes": 782,
+          "sourceSha256": "f48d87abdcff847aa8ee8593e3ffcf0b9880b4beefa11cdec24d3d7717b5d945",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/4_Logic/Each/Emoji.svelte",
+          "language": "Svelte",
+          "bytes": 344,
+          "sourceSha256": "e90165ee933f2b5b8bebbb966353534ddf9c5c7268fe770ea62cf8596a9b2bd7",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/4_Logic/Each/Main.svelte",
+          "language": "Svelte",
+          "bytes": 795,
+          "sourceSha256": "094003e7f8667d36a6061b8eaa4ed50d9bdd13abb3ac9b8369d126070d2feae1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/4_Logic/If_Else.svelte",
+          "language": "Svelte",
+          "bytes": 596,
+          "sourceSha256": "d815acd45868715261657dd5369ed0e05181ce0b04a9be67108d41c6979ab282",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/lib/5_Events/Events.svelte",
+          "language": "Svelte",
+          "bytes": 244,
+          "sourceSha256": "7ac774c6bfdcb10d9013426093bcfeefb2ada5c4588cb558153637d11a318933",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/main.js",
+          "language": "JavaScript",
+          "bytes": 172,
+          "sourceSha256": "d5d48475db14abbfe896356df04c10f4884a1215804fa7e2ccf3249288e9d1b6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/vite-env.d.ts",
+          "language": "TypeScript",
+          "bytes": 71,
+          "sourceSha256": "cc9c01ab82cd866d596b11028637a284c3cca4b115d2aa5a02c31d2c59977fc1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "svelte.config.js",
+          "language": "JavaScript",
+          "bytes": 228,
+          "sourceSha256": "a7e0a6ef9b2060092c7a1dea6ad69dedb8642ad16d41a3f9b8aea8dfcca7c5ed",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "vite.config.js",
+          "language": "JavaScript",
+          "bytes": 175,
+          "sourceSha256": "a5fb25d253551543be4bc62b0337e83a4b0714f59b3a33c85745857af763aa34",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 9,
+        "dependency/generated/vendor/editor/checkpoint directory": 1
+      }
+    },
+    {
+      "repository": "Todo",
+      "branch": "dev",
+      "commit": "52a62791ab5be1cf9e26c6b12122a807bbd9e782",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "dev",
+          "commit": "52a62791ab5be1cf9e26c6b12122a807bbd9e782",
+          "eligibleFiles": 15,
+          "eligibleBytes": 8256
+        },
+        {
+          "branch": "main",
+          "commit": "8bfa18df90f9d3a57ca892d895ed77c178d46cbc",
+          "eligibleFiles": 0,
+          "eligibleBytes": 0
+        }
+      ],
+      "languages": {
+        "JavaScript": 8256
+      },
+      "files": [
+        {
+          "path": "auth/jwt.js",
+          "language": "JavaScript",
+          "bytes": 758,
+          "sourceSha256": "b9b526e29eaea17b707b1775d1ba1754cc0ab6e8a6986c8415fbbb7255c27466",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "auth/strategies.js",
+          "language": "JavaScript",
+          "bytes": 224,
+          "sourceSha256": "f5b0a92e89048c4bb652a694ae8da64991c327c554d207ff8cdc528a5332d8cc",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "constants/todos.js",
+          "language": "JavaScript",
+          "bytes": 303,
+          "sourceSha256": "b6c8d216413f14f0fa5dd2dab16ed7f5264657fb4508d1761a637b9cf6458e5e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "constants/users.js",
+          "language": "JavaScript",
+          "bytes": 546,
+          "sourceSha256": "7fd6d266c5d19e94f2a72fa647ee93bed061a25d31c9a64b0a425021f5fca339",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "database/cassandra_db.js",
+          "language": "JavaScript",
+          "bytes": 1187,
+          "sourceSha256": "e3ea95d7a76ea883c7999bdafb72635aa96cb1e16f613b8051c5e6a3d84e555c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "handlers/todo_handler.js",
+          "language": "JavaScript",
+          "bytes": 135,
+          "sourceSha256": "a72368bff2a45f01f4142033ac5418b76d55246637b33a87834d51d3ca7d58f5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "handlers/user_handler.js",
+          "language": "JavaScript",
+          "bytes": 1366,
+          "sourceSha256": "b9df60811b2a973dad1df8487a15c447d458aaa9d4ae1ab0d716662ac40c054d",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "plugins.js",
+          "language": "JavaScript",
+          "bytes": 136,
+          "sourceSha256": "0837e413847896bea871fe55431ff99bece1dcfc2525aea0bf970f38c789514c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/_routes.js",
+          "language": "JavaScript",
+          "bytes": 329,
+          "sourceSha256": "6da688d9acb15125d19122ce9cf40cbb7c53623ea09685d75a88161ec646e1d4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/todo_routes.js",
+          "language": "JavaScript",
+          "bytes": 252,
+          "sourceSha256": "cfd1c8353365ea288a3511c368b8ed30451c33dff630a41d14158cbcc2bce73f",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "routes/user_routes.js",
+          "language": "JavaScript",
+          "bytes": 467,
+          "sourceSha256": "5090a1c383baac527b6138ee8b1cee32398fa9bce919c1cefc3769050b202896",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "server.js",
+          "language": "JavaScript",
+          "bytes": 634,
+          "sourceSha256": "42ab7dbbd675d7217c4116422c9610c0decddb18616633d8d2023fdfbf06bd42",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "services/profile_service.js",
+          "language": "JavaScript",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "services/user_service.js",
+          "language": "JavaScript",
+          "bytes": 1647,
+          "sourceSha256": "e18b9b92e6087242adf24707bee5bb172f7cd1891f871f8f09c9fb25b4d499b5",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "test.js",
+          "language": "JavaScript",
+          "bytes": 272,
+          "sourceSha256": "30323456f5b2fcaa99de451be3341a9580028df7bea0dea19a6cb2342201bdc6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 3,
+        "dependency/generated/vendor/editor/checkpoint directory": 3158
+      }
+    },
+    {
+      "repository": "Todos-App",
+      "branch": "main",
+      "commit": "b4d588e226b4ed025bbdf23957b491810f1ed160",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "b4d588e226b4ed025bbdf23957b491810f1ed160",
+          "eligibleFiles": 15,
+          "eligibleBytes": 19679
+        }
+      ],
+      "languages": {
+        "HTML": 2028,
+        "CSS": 6419,
+        "JavaScript": 11232
+      },
+      "files": [
+        {
+          "path": "public/index.html",
+          "language": "HTML",
+          "bytes": 2028,
+          "sourceSha256": "8bfd22cca9aebab63e002c4be5b374c0d797b157efc4fb2bb89ec491cd0d5ca9",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.css",
+          "language": "CSS",
+          "bytes": 6419,
+          "sourceSha256": "8e2b6ef76fb4baa65c84802dc273870075f33fc3e4ef2385ffd6332b5398eb13",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.jsx",
+          "language": "JavaScript",
+          "bytes": 280,
+          "sourceSha256": "3a28e097ee248faa9b6150434dc76b4b8902a05f99f1baddf4950438f3b456c1",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/App.test.js",
+          "language": "JavaScript",
+          "bytes": 246,
+          "sourceSha256": "f7784693194b8657d1bf70c37ea70f4a2d694c4566ec41550a8e650eb600aaa4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Form/Form.jsx",
+          "language": "JavaScript",
+          "bytes": 1829,
+          "sourceSha256": "9c1cb0ef998b874afb06d95ab2fda55af36b1c3cde1ffecbf6d3c8a18f28fe52",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Header/Header.jsx",
+          "language": "JavaScript",
+          "bytes": 333,
+          "sourceSha256": "c7c673b094a4736f96ef29911f3fd829001301a393a0705f09c38075faaae19a",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/MainLayout/Main.jsx",
+          "language": "JavaScript",
+          "bytes": 2329,
+          "sourceSha256": "bd91effcbc584abd60c7a71dca5c407e61797d864ab0bda2079abd8f75cd52d6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Todo/Todo.jsx",
+          "language": "JavaScript",
+          "bytes": 1660,
+          "sourceSha256": "9f2062255f8e5eed88cd963d90c9c665d74f9c5dcd434514467143fcff9167de",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Todo/Todo.module.css",
+          "language": "CSS",
+          "bytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/TodoCard/TodoCard.jsx",
+          "language": "JavaScript",
+          "bytes": 950,
+          "sourceSha256": "e2e674122cfef8992bce6c34f90db468e6ea35c0c49d64ddcfffed9ee0674ad8",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/Todos/Todos.jsx",
+          "language": "JavaScript",
+          "bytes": 612,
+          "sourceSha256": "893088151b1277c966d375296371297238eeab08b790566fa985b3637a37bd8e",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/components/TodoUpdateForm/TodoUpdateForm.jsx",
+          "language": "JavaScript",
+          "bytes": 1912,
+          "sourceSha256": "39858e34ef450f85a9523582ea0d553d8cf7629fd3edaa33da4338ac85d20f00",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/index.js",
+          "language": "JavaScript",
+          "bytes": 478,
+          "sourceSha256": "6f715f36b4dbf6d9f22d41c922923847fe1e88b44b81a44a785d9a0e658c97eb",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/reportWebVitals.js",
+          "language": "JavaScript",
+          "bytes": 362,
+          "sourceSha256": "714851669856152806c289f9aac6240b414bbac50c60ee4f7e6247f31eac0c1c",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "src/setupTests.js",
+          "language": "JavaScript",
+          "bytes": 241,
+          "sourceSha256": "22583759d0045fdf8d62c9db0aacba9fd8bddde79c671aa08c97dcfd4e930cc6",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 10
+      }
+    },
+    {
+      "repository": "twitter-scrapper",
+      "branch": "master",
+      "commit": "82918c5893d485cab8efc3bf49ef5b7c11faae49",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "master",
+          "commit": "82918c5893d485cab8efc3bf49ef5b7c11faae49",
+          "eligibleFiles": 1,
+          "eligibleBytes": 2281
+        }
+      ],
+      "languages": {
+        "JavaScript": 2281
+      },
+      "files": [
+        {
+          "path": "main.js",
+          "language": "JavaScript",
+          "bytes": 2281,
+          "sourceSha256": "b309e36f7fa441baf3f4ca5d7ae64077cbd0e8fefe0264b15907cf370447b6e2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 4
+      }
+    },
+    {
+      "repository": "Vehicle-Showroom",
+      "branch": "main",
+      "commit": "b58d2e193ffcc569e00b35598ee90b6f108bf318",
+      "selectionReason": "default branch contains source, or no source branch found",
+      "evaluatedBranches": [
+        {
+          "branch": "main",
+          "commit": "b58d2e193ffcc569e00b35598ee90b6f108bf318",
+          "eligibleFiles": 6,
+          "eligibleBytes": 13948
+        }
+      ],
+      "languages": {
+        "Java": 13948
+      },
+      "files": [
+        {
+          "path": "Commands.java",
+          "language": "Java",
+          "bytes": 7393,
+          "sourceSha256": "9dd79ddd50e37d9ba290d442e2c931659692475462e2fd6d3d53de138b0ad3b0",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "HeavyVehicle.java",
+          "language": "Java",
+          "bytes": 422,
+          "sourceSha256": "885591c1febdf37a6cba6b921c3c8bf17a69e9cbe14996326852764d55995e33",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Main.java",
+          "language": "Java",
+          "bytes": 4739,
+          "sourceSha256": "51f70d93a8846482496706c9732a7648c6e213d73fdd7f67bbc6675586854795",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "NormalVehicle.java",
+          "language": "Java",
+          "bytes": 308,
+          "sourceSha256": "0160871cf88ba3a230a2f3933a9b0650182bebc03cc5a8da2eb7ef8879247525",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "SportsVehicle.java",
+          "language": "Java",
+          "bytes": 427,
+          "sourceSha256": "177767490f6e5f97b7b504130161632cc466dc7ee49c91aa08f65aa41c50a9d2",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        },
+        {
+          "path": "Vehicle.java",
+          "language": "Java",
+          "bytes": 659,
+          "sourceSha256": "7968f3c44f6b366d7ea21d6efab006b9a5e8a79a31876e8cbbea7dcabc936ce4",
+          "method": "UTF-8 source bytes including comments/whitespace"
+        }
+      ],
+      "exclusions": {
+        "non-source extension (data/binary/config/docs excluded)": 7
+      }
+    }
+  ],
+  "excludedRepositories": [
+    {
+      "repository": "Module-5-deployment",
+      "reason": "fork; excluded consistently from source composition"
+    },
+    {
+      "repository": "Module-7",
+      "reason": "fork; excluded consistently from source composition"
+    },
+    {
+      "repository": "OSTAD-Assignment-module-3",
+      "reason": "fork; excluded consistently from source composition"
+    }
+  ],
+  "totals": {
+    "PHP": 163008,
+    "JavaScript": 373225,
+    "SCSS": 6,
+    "Blade": 39940,
+    "C#": 31604,
+    "Java": 46969,
+    "Python": 132629,
+    "Groovy": 787,
+    "HTML": 83985,
+    "TypeScript": 89933,
+    "CSS": 55070,
+    "Svelte": 164632
+  }
+}

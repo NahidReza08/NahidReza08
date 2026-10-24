@@ -1,0 +1,8 @@
+{
+  "name": "nahidreza08-profile",
+  "private": true,
+  "scripts": {
+    "refresh:activity": "node scripts/refresh-activity.mjs",
+    "refresh:composition": "node scripts/analyze-source.mjs && node scripts/render-snapshots.mjs"
+  }
+}
