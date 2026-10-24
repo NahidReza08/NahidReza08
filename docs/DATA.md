@@ -81,4 +81,9 @@ The publication title and WebSci 2021 venue match DOI metadata for [10.1145/3447
 
 Project illustrations are decorative artwork, not application screenshots. The DSI logo is embedded unchanged at its original 137:48 aspect ratio in the full-width employment banner. SUST crest source: https://admission.sust.edu.bd/images/sust-logo.png (official admission portal). University and company trademarks identify the respective institutions; no endorsement is implied. GitHub native HTML tables supply readable text, spacer-column gutters and keyboard-operable details. Rounded borders belong to the SVG headers; native table bodies use GitHub borders. No custom README CSS or JavaScript is required.
 
-Education uses two separate rounded SVG cards with matching logo areas and identical single-line name, degree and date baselines. They wrap to one column on narrow screens. Logos retain their original colours and proportions; no SUST background panel is added. Each complete card links to its official university and has descriptive alternative text.
+Education uses a two-cell native layout with a spacer gutter and individually linked rounded cards. Long names, degrees and dates use purpose-designed mobile variants rather than shrinking desktop text. Logos keep their original colours and proportions; the SUST crest has no added white panel.
+
+
+### Responsive artwork and accessible text
+
+Breakpoint-only picture sources precede theme-only sources, avoiding combined breakpoint/theme conditions. Compact mobile assets use a theme-neutral navy palette with high-contrast text; desktop light/dark assets follow GitHub theme selection. All artwork is self-contained SVG without external fonts, images or scripts. Professional card images have full descriptive alternative text, and native expandable responsibilities also contain selectable project information and complete technology lists. Public-project and education grids use native two-cell rows with spacer gutters; mobile images are intentionally reflowed while the grid stays two columns.
